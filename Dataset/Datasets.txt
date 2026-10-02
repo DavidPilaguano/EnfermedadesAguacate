@@ -1,0 +1,8 @@
+-----------------------------------Datasets-----------------------------------
+*-----------------------------------Hojas------------------------------------*
+T, Rajasekaran; P, Naveen; Vadivel, Balasubramaniam (2024), “K-Kotagiri (NRB) Avocado Leaf DataSet ”, Mendeley Data, V1, doi: 10.17632/6zy6wxhf2v.1---https://data.mendeley.com/datasets/6zy6wxhf2v/1
+This repository is a part of the PhD research of Muhammad Hammad Saleem (H.Saleem@massey.ac.nz; engr.hammadsaleem@gmail.com) In case of any query, please contact Dr. Khalid Mahmood Arif (K.Arif@massey.ac.nz), Muhammad Hammad Saleem (H.Saleem@massey.ac.nz; engr.hammadsaleem@gmail.com)---https://github.com/hsaleem1/NZDLPlantDisease-v1.git
+https://drive.usercontent.google.com/download?id=1s9c01kzDM6v_zJgUqIqnxoglH3jz947H&authuser=0
+https://drive.usercontent.google.com/download?id=1vrZGhYcUBDHV_ApnGfnOQZt2k88eONov&authuser=0
+https://universe.roboflow.com/suraj-azuiz/avocado-leaf-disease
+*-----------------------------------Tallos------------------------------------*
