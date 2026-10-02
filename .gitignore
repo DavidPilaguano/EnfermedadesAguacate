@@ -1,0 +1,9 @@
+# Codex local workspace files
+.codex/
+.codex_tmp_spreadsheet/
+
+# Local progress folder
+Avances/
+
+# Local helper scripts/tools
+tools/

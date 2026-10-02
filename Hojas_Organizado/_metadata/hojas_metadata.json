@@ -1,0 +1,3440 @@
+{
+  "source_folder": "C:\\Users\\plusm\\Desktop\\EnfermedadesAguacate\\Hojas",
+  "organized_folder": "C:\\Users\\plusm\\Desktop\\EnfermedadesAguacate\\Hojas_Organizado",
+  "generated_at": "2026-09-29T14:49:29",
+  "summary": {
+    "total_files": 96,
+    "copied_files": 95,
+    "skipped_files": 1,
+    "extension_counts": {
+      ".url": 39,
+      ".pdf": 22,
+      ".md": 21,
+      ".xlsx": 11,
+      ".csv": 2,
+      ".bib": 1
+    },
+    "category_counts": {
+      "02_Enfermedades_y_plagas": 33,
+      "03_IA_vision_artificial_UAV": 24,
+      "01_Bibliografia_adicional_2026": 12,
+      "00_Control_SLR": 11,
+      "04_Cultivos_comparativos": 8,
+      "99_Duplicados_detectados": 6,
+      "05_Fisiologia_y_riego": 1,
+      "99_Archivos_temporales": 1
+    },
+    "top_folder_counts": {
+      "Vision artificial y UAV": 24,
+      "Antracnosis": 14,
+      "_Bibliografia adicional 2026": 12,
+      "[raiz]": 9,
+      "SRL_Excel": 9,
+      "Cultivos comparativos": 8,
+      "Roña": 4,
+      "Agallas foliares": 3,
+      "Araña roja": 3,
+      "Tizón de la hoja": 3,
+      "Cercospora": 2,
+      "Mosca blanca": 2,
+      "Pseudocercospora purpurea": 2,
+      "Fisiologia y riego": 1
+    }
+  },
+  "inventory": [
+    {
+      "original_path": "_Bibliografia adicional 2026\\01_Antracnosis_Uysal_Kurt_2020.url",
+      "file_name": "01_Antracnosis_Uysal_Kurt_2020.url",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\01_Antracnosis_Uysal_Kurt_2020.url",
+      "duplicate_group": "45eaf481fc",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+      "file_name": "02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+      "duplicate_group": "f67ce4193c",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+      "file_name": "03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+      "duplicate_group": "d0fc832beb",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\04_Cercospora_van_Eeden_Korsten_2013.url",
+      "file_name": "04_Cercospora_van_Eeden_Korsten_2013.url",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\04_Cercospora_van_Eeden_Korsten_2013.url",
+      "duplicate_group": "f414ef0ce0",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+      "file_name": "05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+      "duplicate_group": "2746d8ab4b",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+      "file_name": "06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+      "duplicate_group": "55dacb4c20",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+      "file_name": "07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+      "duplicate_group": "b4954540bc",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+      "file_name": "08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+      "duplicate_group": "44ecd87e84",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\09_Rona_Scab_Belizaire_2024.url",
+      "file_name": "09_Rona_Scab_Belizaire_2024.url",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\09_Rona_Scab_Belizaire_2024.url",
+      "duplicate_group": "37811baf53",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\10_Rona_Scab_Chellappan_2024_PDF.url",
+      "file_name": "10_Rona_Scab_Chellappan_2024_PDF.url",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\10_Rona_Scab_Chellappan_2024_PDF.url",
+      "duplicate_group": "4f98120998",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\bibliografia_adicional.bib",
+      "file_name": "bibliografia_adicional.bib",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".bib",
+      "size_kb": 4.3,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\bibliografia_adicional.bib",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\LEEME.md",
+      "file_name": "LEEME.md",
+      "top_folder": "_Bibliografia adicional 2026",
+      "extension": ".md",
+      "size_kb": 2.4,
+      "modified": "2026-09-29T13:33:39",
+      "category": "01_Bibliografia_adicional_2026",
+      "subcategory": "",
+      "organized_path": "01_Bibliografia_adicional_2026\\LEEME.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Agallas foliares\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+      "file_name": "07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+      "top_folder": "Agallas foliares",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Agallas_foliares",
+      "organized_path": "02_Enfermedades_y_plagas\\Agallas_foliares\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+      "duplicate_group": "b4954540bc",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Agallas foliares\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+      "file_name": "08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+      "top_folder": "Agallas foliares",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Agallas_foliares",
+      "organized_path": "02_Enfermedades_y_plagas\\Agallas_foliares\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+      "duplicate_group": "44ecd87e84",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Agallas foliares\\s10971-026-07179-z.pdf",
+      "file_name": "s10971-026-07179-z.pdf",
+      "top_folder": "Agallas foliares",
+      "extension": ".pdf",
+      "size_kb": 3930.6,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Agallas_foliares",
+      "organized_path": "02_Enfermedades_y_plagas\\Agallas_foliares\\s10971-026-07179-z.pdf",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Aguacate.xlsx",
+      "file_name": "Aguacate.xlsx",
+      "top_folder": "[raiz]",
+      "extension": ".xlsx",
+      "size_kb": 17.7,
+      "modified": "2026-09-29T13:33:38",
+      "category": "00_Control_SLR",
+      "subcategory": "Cadenas_y_prioridades",
+      "organized_path": "00_Control_SLR\\Cadenas_y_prioridades\\Aguacate.xlsx",
+      "duplicate_group": "",
+      "note": "Matriz inicial de prioridades/cadenas de búsqueda."
+    },
+    {
+      "original_path": "Aguacate_cadenas_busqueda.xlsx",
+      "file_name": "Aguacate_cadenas_busqueda.xlsx",
+      "top_folder": "[raiz]",
+      "extension": ".xlsx",
+      "size_kb": 13.2,
+      "modified": "2026-09-29T13:33:38",
+      "category": "00_Control_SLR",
+      "subcategory": "Cadenas_y_prioridades",
+      "organized_path": "00_Control_SLR\\Cadenas_y_prioridades\\Aguacate_cadenas_busqueda.xlsx",
+      "duplicate_group": "",
+      "note": "Matriz inicial de prioridades/cadenas de búsqueda."
+    },
+    {
+      "original_path": "Antracnosis\\01_Antracnosis_Uysal_Kurt_2020.url",
+      "file_name": "01_Antracnosis_Uysal_Kurt_2020.url",
+      "top_folder": "Antracnosis",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\01_Antracnosis_Uysal_Kurt_2020.url",
+      "duplicate_group": "45eaf481fc",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\agriengineering-08-00340.pdf",
+      "file_name": "agriengineering-08-00340.pdf",
+      "top_folder": "Antracnosis",
+      "extension": ".pdf",
+      "size_kb": 5432.7,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\agriengineering-08-00340.pdf",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.md",
+      "file_name": "Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.md",
+      "top_folder": "Antracnosis",
+      "extension": ".md",
+      "size_kb": 1.0,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.url",
+      "file_name": "Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.url",
+      "top_folder": "Antracnosis",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.md",
+      "file_name": "Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.md",
+      "top_folder": "Antracnosis",
+      "extension": ".md",
+      "size_kb": 1.0,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.url",
+      "file_name": "Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.url",
+      "top_folder": "Antracnosis",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.url",
+      "duplicate_group": "c340ccb913",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md",
+      "file_name": "Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md",
+      "top_folder": "Antracnosis",
+      "extension": ".md",
+      "size_kb": 0.7,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+      "file_name": "Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+      "top_folder": "Antracnosis",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+      "duplicate_group": "c340ccb913",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\s41598-026-50025-z.pdf",
+      "file_name": "s41598-026-50025-z.pdf",
+      "top_folder": "Antracnosis",
+      "extension": ".pdf",
+      "size_kb": 6955.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\s41598-026-50025-z.pdf",
+      "duplicate_group": "b07796789b",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\scopus_export_Sep 9-2026_f215638f-fffb-429f-adc7-ae9f84755503.csv",
+      "file_name": "scopus_export_Sep 9-2026_f215638f-fffb-429f-adc7-ae9f84755503.csv",
+      "top_folder": "Antracnosis",
+      "extension": ".csv",
+      "size_kb": 4.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\scopus_export_Sep 9-2026_f215638f-fffb-429f-adc7-ae9f84755503.csv",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+      "file_name": "Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+      "top_folder": "Antracnosis",
+      "extension": ".pdf",
+      "size_kb": 6955.7,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+      "duplicate_group": "b07796789b",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\Springer\\s00253-026-13715-2.pdf",
+      "file_name": "s00253-026-13715-2.pdf",
+      "top_folder": "Antracnosis",
+      "extension": ".pdf",
+      "size_kb": 3149.2,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\Springer\\s00253-026-13715-2.pdf",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\WoS_DOI\\Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.md",
+      "file_name": "Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.md",
+      "top_folder": "Antracnosis",
+      "extension": ".md",
+      "size_kb": 1.0,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\WoS_DOI\\Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Antracnosis\\WoS_DOI\\Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.url",
+      "file_name": "Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.url",
+      "top_folder": "Antracnosis",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:38",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Antracnosis",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\WoS_DOI\\Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Araña roja\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+      "file_name": "05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+      "top_folder": "Araña roja",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Arana_roja",
+      "organized_path": "02_Enfermedades_y_plagas\\Arana_roja\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+      "duplicate_group": "2746d8ab4b",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Araña roja\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+      "file_name": "06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+      "top_folder": "Araña roja",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Arana_roja",
+      "organized_path": "02_Enfermedades_y_plagas\\Arana_roja\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+      "duplicate_group": "55dacb4c20",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Araña roja\\scopus_export_Sep 10-2026_7aa1caac-78ac-4052-b0ac-49ff0bda6f9c.csv",
+      "file_name": "scopus_export_Sep 10-2026_7aa1caac-78ac-4052-b0ac-49ff0bda6f9c.csv",
+      "top_folder": "Araña roja",
+      "extension": ".csv",
+      "size_kb": 4.5,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Arana_roja",
+      "organized_path": "02_Enfermedades_y_plagas\\Arana_roja\\scopus_export_Sep 10-2026_7aa1caac-78ac-4052-b0ac-49ff0bda6f9c.csv",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Cercospora\\04_Cercospora_van_Eeden_Korsten_2013.url",
+      "file_name": "04_Cercospora_van_Eeden_Korsten_2013.url",
+      "top_folder": "Cercospora",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Cercospora",
+      "organized_path": "02_Enfermedades_y_plagas\\Cercospora\\04_Cercospora_van_Eeden_Korsten_2013.url",
+      "duplicate_group": "f414ef0ce0",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Cercospora\\rcch,+03_Validation+of+black+spot+[(Pseudocercospora+purpurea+(Cooke)+Deighton]+management+strategies+in+avocado+crops+in+norther.pdf",
+      "file_name": "rcch,+03_Validation+of+black+spot+[(Pseudocercospora+purpurea+(Cooke)+Deighton]+management+strategies+in+avocado+crops+in+norther.pdf",
+      "top_folder": "Cercospora",
+      "extension": ".pdf",
+      "size_kb": 612.8,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Cercospora",
+      "organized_path": "02_Enfermedades_y_plagas\\Cercospora\\rcch,+03_Validation+of+black+spot+[(Pseudocercospora+purpurea+(Cooke)+Deighton]+management+strategies+in+avocado+crops+in+norther.pdf",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.md",
+      "file_name": "CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.md",
+      "top_folder": "Cultivos comparativos",
+      "extension": ".md",
+      "size_kb": 0.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "04_Cultivos_comparativos",
+      "subcategory": "",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.url",
+      "file_name": "CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.url",
+      "top_folder": "Cultivos comparativos",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "04_Cultivos_comparativos",
+      "subcategory": "",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\Image-Based Plant Leaf Disease Detection using Deep Learning.md",
+      "file_name": "Image-Based Plant Leaf Disease Detection using Deep Learning.md",
+      "top_folder": "Cultivos comparativos",
+      "extension": ".md",
+      "size_kb": 0.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "04_Cultivos_comparativos",
+      "subcategory": "",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\Image-Based Plant Leaf Disease Detection using Deep Learning.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\Image-Based Plant Leaf Disease Detection using Deep Learning.url",
+      "file_name": "Image-Based Plant Leaf Disease Detection using Deep Learning.url",
+      "top_folder": "Cultivos comparativos",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "04_Cultivos_comparativos",
+      "subcategory": "",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\Image-Based Plant Leaf Disease Detection using Deep Learning.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\Plant Disease Detection Using Deep Learning.md",
+      "file_name": "Plant Disease Detection Using Deep Learning.md",
+      "top_folder": "Cultivos comparativos",
+      "extension": ".md",
+      "size_kb": 0.6,
+      "modified": "2026-09-29T13:33:39",
+      "category": "04_Cultivos_comparativos",
+      "subcategory": "",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\Plant Disease Detection Using Deep Learning.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\Plant Disease Detection Using Deep Learning.url",
+      "file_name": "Plant Disease Detection Using Deep Learning.url",
+      "top_folder": "Cultivos comparativos",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "04_Cultivos_comparativos",
+      "subcategory": "",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\Plant Disease Detection Using Deep Learning.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Cultivos comparativos\\Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf",
+      "file_name": "Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf",
+      "top_folder": "Cultivos comparativos",
+      "extension": ".pdf",
+      "size_kb": 1245.9,
+      "modified": "2026-09-29T13:33:39",
+      "category": "04_Cultivos_comparativos",
+      "subcategory": "",
+      "organized_path": "04_Cultivos_comparativos\\Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf",
+      "duplicate_group": "473dae4d68",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Cultivos comparativos\\Simultaneously prediction of multiple wheat leaf phenotypes using.pdf",
+      "file_name": "Simultaneously prediction of multiple wheat leaf phenotypes using.pdf",
+      "top_folder": "Cultivos comparativos",
+      "extension": ".pdf",
+      "size_kb": 5286.8,
+      "modified": "2026-09-29T13:33:39",
+      "category": "04_Cultivos_comparativos",
+      "subcategory": "",
+      "organized_path": "04_Cultivos_comparativos\\Simultaneously prediction of multiple wheat leaf phenotypes using.pdf",
+      "duplicate_group": "d46784fd34",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Fisiologia y riego\\Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf",
+      "file_name": "Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf",
+      "top_folder": "Fisiologia y riego",
+      "extension": ".pdf",
+      "size_kb": 3898.8,
+      "modified": "2026-09-29T13:33:39",
+      "category": "05_Fisiologia_y_riego",
+      "subcategory": "",
+      "organized_path": "05_Fisiologia_y_riego\\Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf",
+      "duplicate_group": "30999757b2",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf",
+      "file_name": "Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf",
+      "top_folder": "[raiz]",
+      "extension": ".pdf",
+      "size_kb": 1245.9,
+      "modified": "2026-09-29T13:33:39",
+      "category": "99_Duplicados_detectados",
+      "subcategory": "Raiz",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf",
+      "duplicate_group": "473dae4d68",
+      "note": "PDF raíz duplicado de un archivo clasificado."
+    },
+    {
+      "original_path": "Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf",
+      "file_name": "Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf",
+      "top_folder": "[raiz]",
+      "extension": ".pdf",
+      "size_kb": 3898.8,
+      "modified": "2026-09-29T13:33:39",
+      "category": "99_Duplicados_detectados",
+      "subcategory": "Raiz",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf",
+      "duplicate_group": "30999757b2",
+      "note": "PDF raíz duplicado de un archivo clasificado."
+    },
+    {
+      "original_path": "Mosca blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md",
+      "file_name": "Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md",
+      "top_folder": "Mosca blanca",
+      "extension": ".md",
+      "size_kb": 0.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Mosca_blanca",
+      "organized_path": "02_Enfermedades_y_plagas\\Mosca_blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Mosca blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+      "file_name": "Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+      "top_folder": "Mosca blanca",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Mosca_blanca",
+      "organized_path": "02_Enfermedades_y_plagas\\Mosca_blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+      "duplicate_group": "e84b637601",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Pseudocercospora purpurea\\WoS_DOI\\First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.md",
+      "file_name": "First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.md",
+      "top_folder": "Pseudocercospora purpurea",
+      "extension": ".md",
+      "size_kb": 1.0,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Pseudocercospora_purpurea",
+      "organized_path": "02_Enfermedades_y_plagas\\Pseudocercospora_purpurea\\WoS_DOI\\First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Pseudocercospora purpurea\\WoS_DOI\\First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.url",
+      "file_name": "First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.url",
+      "top_folder": "Pseudocercospora purpurea",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Pseudocercospora_purpurea",
+      "organized_path": "02_Enfermedades_y_plagas\\Pseudocercospora_purpurea\\WoS_DOI\\First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "README.md",
+      "file_name": "README.md",
+      "top_folder": "[raiz]",
+      "extension": ".md",
+      "size_kb": 0.0,
+      "modified": "2026-09-29T13:33:39",
+      "category": "00_Control_SLR",
+      "subcategory": "README",
+      "organized_path": "00_Control_SLR\\README\\README.md",
+      "duplicate_group": "",
+      "note": "README raíz."
+    },
+    {
+      "original_path": "Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf",
+      "file_name": "Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf",
+      "top_folder": "[raiz]",
+      "extension": ".pdf",
+      "size_kb": 14451.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "99_Duplicados_detectados",
+      "subcategory": "Raiz",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf",
+      "duplicate_group": "560418638d",
+      "note": "PDF raíz duplicado de un archivo clasificado."
+    },
+    {
+      "original_path": "Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf",
+      "file_name": "Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf",
+      "top_folder": "[raiz]",
+      "extension": ".pdf",
+      "size_kb": 14451.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "99_Duplicados_detectados",
+      "subcategory": "Raiz",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf",
+      "duplicate_group": "cf449a1729",
+      "note": "PDF raíz duplicado de un archivo clasificado."
+    },
+    {
+      "original_path": "Roña\\09_Rona_Scab_Belizaire_2024.url",
+      "file_name": "09_Rona_Scab_Belizaire_2024.url",
+      "top_folder": "Roña",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Rona",
+      "organized_path": "02_Enfermedades_y_plagas\\Rona\\09_Rona_Scab_Belizaire_2024.url",
+      "duplicate_group": "37811baf53",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Roña\\10_Rona_Scab_Chellappan_2024_PDF.url",
+      "file_name": "10_Rona_Scab_Chellappan_2024_PDF.url",
+      "top_folder": "Roña",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Rona",
+      "organized_path": "02_Enfermedades_y_plagas\\Rona\\10_Rona_Scab_Chellappan_2024_PDF.url",
+      "duplicate_group": "4f98120998",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Roña\\WoS_DOI\\Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.md",
+      "file_name": "Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.md",
+      "top_folder": "Roña",
+      "extension": ".md",
+      "size_kb": 0.9,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Rona",
+      "organized_path": "02_Enfermedades_y_plagas\\Rona\\WoS_DOI\\Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Roña\\WoS_DOI\\Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.url",
+      "file_name": "Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.url",
+      "top_folder": "Roña",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Rona",
+      "organized_path": "02_Enfermedades_y_plagas\\Rona\\WoS_DOI\\Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Simultaneously prediction of multiple wheat leaf phenotypes using.pdf",
+      "file_name": "Simultaneously prediction of multiple wheat leaf phenotypes using.pdf",
+      "top_folder": "[raiz]",
+      "extension": ".pdf",
+      "size_kb": 5286.8,
+      "modified": "2026-09-29T13:33:39",
+      "category": "99_Duplicados_detectados",
+      "subcategory": "Raiz",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Simultaneously prediction of multiple wheat leaf phenotypes using.pdf",
+      "duplicate_group": "d46784fd34",
+      "note": "PDF raíz duplicado de un archivo clasificado."
+    },
+    {
+      "original_path": "Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+      "file_name": "Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+      "top_folder": "[raiz]",
+      "extension": ".pdf",
+      "size_kb": 6955.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "99_Duplicados_detectados",
+      "subcategory": "Raiz",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+      "duplicate_group": "b07796789b",
+      "note": "PDF raíz duplicado de un archivo clasificado."
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_PLANTILLA_V1.0.xlsx",
+      "file_name": "SLR_Hojas_aguacate_PLANTILLA_V1.0.xlsx",
+      "top_folder": "SRL_Excel",
+      "extension": ".xlsx",
+      "size_kb": 78.5,
+      "modified": "2026-09-29T13:33:39",
+      "category": "00_Control_SLR",
+      "subcategory": "Versiones_SLR",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_PLANTILLA_V1.0.xlsx",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.1.xlsx",
+      "file_name": "SLR_Hojas_aguacate_V1.1.xlsx",
+      "top_folder": "SRL_Excel",
+      "extension": ".xlsx",
+      "size_kb": 39.4,
+      "modified": "2026-09-29T13:33:39",
+      "category": "00_Control_SLR",
+      "subcategory": "Versiones_SLR",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.1.xlsx",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.2.xlsx",
+      "file_name": "SLR_Hojas_aguacate_V1.2.xlsx",
+      "top_folder": "SRL_Excel",
+      "extension": ".xlsx",
+      "size_kb": 50.8,
+      "modified": "2026-09-29T13:33:39",
+      "category": "00_Control_SLR",
+      "subcategory": "Versiones_SLR",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.2.xlsx",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.3.xlsx",
+      "file_name": "SLR_Hojas_aguacate_V1.3.xlsx",
+      "top_folder": "SRL_Excel",
+      "extension": ".xlsx",
+      "size_kb": 57.0,
+      "modified": "2026-09-29T13:33:39",
+      "category": "00_Control_SLR",
+      "subcategory": "Versiones_SLR",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.3.xlsx",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.4.xlsx",
+      "file_name": "SLR_Hojas_aguacate_V1.4.xlsx",
+      "top_folder": "SRL_Excel",
+      "extension": ".xlsx",
+      "size_kb": 51.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "00_Control_SLR",
+      "subcategory": "Versiones_SLR",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.4.xlsx",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.5.xlsx",
+      "file_name": "SLR_Hojas_aguacate_V1.5.xlsx",
+      "top_folder": "SRL_Excel",
+      "extension": ".xlsx",
+      "size_kb": 52.8,
+      "modified": "2026-09-29T13:33:39",
+      "category": "00_Control_SLR",
+      "subcategory": "Versiones_SLR",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.5.xlsx",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.6.xlsx",
+      "file_name": "SLR_Hojas_aguacate_V1.6.xlsx",
+      "top_folder": "SRL_Excel",
+      "extension": ".xlsx",
+      "size_kb": 76.3,
+      "modified": "2026-09-29T13:33:39",
+      "category": "00_Control_SLR",
+      "subcategory": "Versiones_SLR",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.6.xlsx",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.7.xlsx",
+      "file_name": "SLR_Hojas_aguacate_V1.7.xlsx",
+      "top_folder": "SRL_Excel",
+      "extension": ".xlsx",
+      "size_kb": 78.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "00_Control_SLR",
+      "subcategory": "Versiones_SLR",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.7.xlsx",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "SRL_Excel\\~$SLR_Hojas_aguacate_V1.7.xlsx",
+      "file_name": "~$SLR_Hojas_aguacate_V1.7.xlsx",
+      "top_folder": "SRL_Excel",
+      "extension": ".xlsx",
+      "size_kb": 0.2,
+      "modified": "2026-09-29T13:33:39",
+      "category": "99_Archivos_temporales",
+      "subcategory": "",
+      "organized_path": "99_Archivos_temporales\\~$SLR_Hojas_aguacate_V1.7.xlsx",
+      "duplicate_group": "",
+      "note": "Archivo temporal de Excel; no se copia."
+    },
+    {
+      "original_path": "Tizón de la hoja\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+      "file_name": "02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+      "top_folder": "Tizón de la hoja",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Tizon_de_la_hoja",
+      "organized_path": "02_Enfermedades_y_plagas\\Tizon_de_la_hoja\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+      "duplicate_group": "f67ce4193c",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Tizón de la hoja\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+      "file_name": "03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+      "top_folder": "Tizón de la hoja",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Tizon_de_la_hoja",
+      "organized_path": "02_Enfermedades_y_plagas\\Tizon_de_la_hoja\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+      "duplicate_group": "d0fc832beb",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Tizón de la hoja\\ijpb-17-00010.pdf",
+      "file_name": "ijpb-17-00010.pdf",
+      "top_folder": "Tizón de la hoja",
+      "extension": ".pdf",
+      "size_kb": 10066.3,
+      "modified": "2026-09-29T13:33:39",
+      "category": "02_Enfermedades_y_plagas",
+      "subcategory": "Tizon_de_la_hoja",
+      "organized_path": "02_Enfermedades_y_plagas\\Tizon_de_la_hoja\\ijpb-17-00010.pdf",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Crop Disease Prediction System.md",
+      "file_name": "Crop Disease Prediction System.md",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".md",
+      "size_kb": 0.9,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Crop Disease Prediction System.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Crop Disease Prediction System.url",
+      "file_name": "Crop Disease Prediction System.url",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Crop Disease Prediction System.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.md",
+      "file_name": "Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.md",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".md",
+      "size_kb": 1.2,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.pdf",
+      "file_name": "Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.pdf",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".pdf",
+      "size_kb": 2378.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.pdf",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.url",
+      "file_name": "Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.url",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.md",
+      "file_name": "Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.md",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".md",
+      "size_kb": 1.2,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.pdf",
+      "file_name": "Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.pdf",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".pdf",
+      "size_kb": 5916.8,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.pdf",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.url",
+      "file_name": "Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.url",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md",
+      "file_name": "Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".md",
+      "size_kb": 0.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+      "file_name": "Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+      "duplicate_group": "e84b637601",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.md",
+      "file_name": "Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.md",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".md",
+      "size_kb": 1.0,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.url",
+      "file_name": "Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.url",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.md",
+      "file_name": "Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.md",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".md",
+      "size_kb": 0.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.url",
+      "file_name": "Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.url",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md",
+      "file_name": "Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".md",
+      "size_kb": 0.8,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+      "file_name": "Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+      "duplicate_group": "c340ccb913",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf",
+      "file_name": "Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".pdf",
+      "size_kb": 14451.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf",
+      "duplicate_group": "560418638d",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf",
+      "file_name": "Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".pdf",
+      "size_kb": 14451.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf",
+      "duplicate_group": "cf449a1729",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.md",
+      "file_name": "ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.md",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".md",
+      "size_kb": 1.2,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.pdf",
+      "file_name": "ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.pdf",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".pdf",
+      "size_kb": 3809.0,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.pdf",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.url",
+      "file_name": "ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.url",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.md",
+      "file_name": "Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.md",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".md",
+      "size_kb": 1.2,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.md",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.pdf",
+      "file_name": "Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.pdf",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".pdf",
+      "size_kb": 6955.7,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.pdf",
+      "duplicate_group": "b07796789b",
+      "note": "Clasificado por carpeta temática existente."
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.url",
+      "file_name": "Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.url",
+      "top_folder": "Vision artificial y UAV",
+      "extension": ".url",
+      "size_kb": 0.1,
+      "modified": "2026-09-29T13:33:39",
+      "category": "03_IA_vision_artificial_UAV",
+      "subcategory": "",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.url",
+      "duplicate_group": "",
+      "note": "Clasificado por carpeta temática existente."
+    }
+  ],
+  "organized": [
+    {
+      "original_path": "_Bibliografia adicional 2026\\01_Antracnosis_Uysal_Kurt_2020.url",
+      "organized_path": "01_Bibliografia_adicional_2026\\01_Antracnosis_Uysal_Kurt_2020.url"
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+      "organized_path": "01_Bibliografia_adicional_2026\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url"
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+      "organized_path": "01_Bibliografia_adicional_2026\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url"
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\04_Cercospora_van_Eeden_Korsten_2013.url",
+      "organized_path": "01_Bibliografia_adicional_2026\\04_Cercospora_van_Eeden_Korsten_2013.url"
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+      "organized_path": "01_Bibliografia_adicional_2026\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url"
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+      "organized_path": "01_Bibliografia_adicional_2026\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url"
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+      "organized_path": "01_Bibliografia_adicional_2026\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url"
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+      "organized_path": "01_Bibliografia_adicional_2026\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url"
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\09_Rona_Scab_Belizaire_2024.url",
+      "organized_path": "01_Bibliografia_adicional_2026\\09_Rona_Scab_Belizaire_2024.url"
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\10_Rona_Scab_Chellappan_2024_PDF.url",
+      "organized_path": "01_Bibliografia_adicional_2026\\10_Rona_Scab_Chellappan_2024_PDF.url"
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\bibliografia_adicional.bib",
+      "organized_path": "01_Bibliografia_adicional_2026\\bibliografia_adicional.bib"
+    },
+    {
+      "original_path": "_Bibliografia adicional 2026\\LEEME.md",
+      "organized_path": "01_Bibliografia_adicional_2026\\LEEME.md"
+    },
+    {
+      "original_path": "Agallas foliares\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Agallas_foliares\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url"
+    },
+    {
+      "original_path": "Agallas foliares\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Agallas_foliares\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url"
+    },
+    {
+      "original_path": "Agallas foliares\\s10971-026-07179-z.pdf",
+      "organized_path": "02_Enfermedades_y_plagas\\Agallas_foliares\\s10971-026-07179-z.pdf"
+    },
+    {
+      "original_path": "Aguacate.xlsx",
+      "organized_path": "00_Control_SLR\\Cadenas_y_prioridades\\Aguacate.xlsx"
+    },
+    {
+      "original_path": "Aguacate_cadenas_busqueda.xlsx",
+      "organized_path": "00_Control_SLR\\Cadenas_y_prioridades\\Aguacate_cadenas_busqueda.xlsx"
+    },
+    {
+      "original_path": "Antracnosis\\01_Antracnosis_Uysal_Kurt_2020.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\01_Antracnosis_Uysal_Kurt_2020.url"
+    },
+    {
+      "original_path": "Antracnosis\\agriengineering-08-00340.pdf",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\agriengineering-08-00340.pdf"
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.md",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.md"
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.url"
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.md",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.md"
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.url"
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md"
+    },
+    {
+      "original_path": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url"
+    },
+    {
+      "original_path": "Antracnosis\\s41598-026-50025-z.pdf",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\s41598-026-50025-z.pdf"
+    },
+    {
+      "original_path": "Antracnosis\\scopus_export_Sep 9-2026_f215638f-fffb-429f-adc7-ae9f84755503.csv",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\scopus_export_Sep 9-2026_f215638f-fffb-429f-adc7-ae9f84755503.csv"
+    },
+    {
+      "original_path": "Antracnosis\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf"
+    },
+    {
+      "original_path": "Antracnosis\\Springer\\s00253-026-13715-2.pdf",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\Springer\\s00253-026-13715-2.pdf"
+    },
+    {
+      "original_path": "Antracnosis\\WoS_DOI\\Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.md",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\WoS_DOI\\Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.md"
+    },
+    {
+      "original_path": "Antracnosis\\WoS_DOI\\Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Antracnosis\\WoS_DOI\\Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.url"
+    },
+    {
+      "original_path": "Araña roja\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Arana_roja\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url"
+    },
+    {
+      "original_path": "Araña roja\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Arana_roja\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url"
+    },
+    {
+      "original_path": "Araña roja\\scopus_export_Sep 10-2026_7aa1caac-78ac-4052-b0ac-49ff0bda6f9c.csv",
+      "organized_path": "02_Enfermedades_y_plagas\\Arana_roja\\scopus_export_Sep 10-2026_7aa1caac-78ac-4052-b0ac-49ff0bda6f9c.csv"
+    },
+    {
+      "original_path": "Cercospora\\04_Cercospora_van_Eeden_Korsten_2013.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Cercospora\\04_Cercospora_van_Eeden_Korsten_2013.url"
+    },
+    {
+      "original_path": "Cercospora\\rcch,+03_Validation+of+black+spot+[(Pseudocercospora+purpurea+(Cooke)+Deighton]+management+strategies+in+avocado+crops+in+norther.pdf",
+      "organized_path": "02_Enfermedades_y_plagas\\Cercospora\\rcch,+03_Validation+of+black+spot+[(Pseudocercospora+purpurea+(Cooke)+Deighton]+management+strategies+in+avocado+crops+in+norther.pdf"
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.md",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.md"
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.url",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.url"
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\Image-Based Plant Leaf Disease Detection using Deep Learning.md",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\Image-Based Plant Leaf Disease Detection using Deep Learning.md"
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\Image-Based Plant Leaf Disease Detection using Deep Learning.url",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\Image-Based Plant Leaf Disease Detection using Deep Learning.url"
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\Plant Disease Detection Using Deep Learning.md",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\Plant Disease Detection Using Deep Learning.md"
+    },
+    {
+      "original_path": "Cultivos comparativos\\IEEE Xplore\\Plant Disease Detection Using Deep Learning.url",
+      "organized_path": "04_Cultivos_comparativos\\IEEE Xplore\\Plant Disease Detection Using Deep Learning.url"
+    },
+    {
+      "original_path": "Cultivos comparativos\\Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf",
+      "organized_path": "04_Cultivos_comparativos\\Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf"
+    },
+    {
+      "original_path": "Cultivos comparativos\\Simultaneously prediction of multiple wheat leaf phenotypes using.pdf",
+      "organized_path": "04_Cultivos_comparativos\\Simultaneously prediction of multiple wheat leaf phenotypes using.pdf"
+    },
+    {
+      "original_path": "Fisiologia y riego\\Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf",
+      "organized_path": "05_Fisiologia_y_riego\\Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf"
+    },
+    {
+      "original_path": "Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf"
+    },
+    {
+      "original_path": "Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf"
+    },
+    {
+      "original_path": "Mosca blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md",
+      "organized_path": "02_Enfermedades_y_plagas\\Mosca_blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md"
+    },
+    {
+      "original_path": "Mosca blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Mosca_blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url"
+    },
+    {
+      "original_path": "Pseudocercospora purpurea\\WoS_DOI\\First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.md",
+      "organized_path": "02_Enfermedades_y_plagas\\Pseudocercospora_purpurea\\WoS_DOI\\First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.md"
+    },
+    {
+      "original_path": "Pseudocercospora purpurea\\WoS_DOI\\First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Pseudocercospora_purpurea\\WoS_DOI\\First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.url"
+    },
+    {
+      "original_path": "README.md",
+      "organized_path": "00_Control_SLR\\README\\README.md"
+    },
+    {
+      "original_path": "Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf"
+    },
+    {
+      "original_path": "Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf"
+    },
+    {
+      "original_path": "Roña\\09_Rona_Scab_Belizaire_2024.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Rona\\09_Rona_Scab_Belizaire_2024.url"
+    },
+    {
+      "original_path": "Roña\\10_Rona_Scab_Chellappan_2024_PDF.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Rona\\10_Rona_Scab_Chellappan_2024_PDF.url"
+    },
+    {
+      "original_path": "Roña\\WoS_DOI\\Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.md",
+      "organized_path": "02_Enfermedades_y_plagas\\Rona\\WoS_DOI\\Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.md"
+    },
+    {
+      "original_path": "Roña\\WoS_DOI\\Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Rona\\WoS_DOI\\Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.url"
+    },
+    {
+      "original_path": "Simultaneously prediction of multiple wheat leaf phenotypes using.pdf",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Simultaneously prediction of multiple wheat leaf phenotypes using.pdf"
+    },
+    {
+      "original_path": "Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+      "organized_path": "99_Duplicados_detectados\\Raiz\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf"
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_PLANTILLA_V1.0.xlsx",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_PLANTILLA_V1.0.xlsx"
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.1.xlsx",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.1.xlsx"
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.2.xlsx",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.2.xlsx"
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.3.xlsx",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.3.xlsx"
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.4.xlsx",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.4.xlsx"
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.5.xlsx",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.5.xlsx"
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.6.xlsx",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.6.xlsx"
+    },
+    {
+      "original_path": "SRL_Excel\\SLR_Hojas_aguacate_V1.7.xlsx",
+      "organized_path": "00_Control_SLR\\Versiones_SLR\\SLR_Hojas_aguacate_V1.7.xlsx"
+    },
+    {
+      "original_path": "Tizón de la hoja\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Tizon_de_la_hoja\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url"
+    },
+    {
+      "original_path": "Tizón de la hoja\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+      "organized_path": "02_Enfermedades_y_plagas\\Tizon_de_la_hoja\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url"
+    },
+    {
+      "original_path": "Tizón de la hoja\\ijpb-17-00010.pdf",
+      "organized_path": "02_Enfermedades_y_plagas\\Tizon_de_la_hoja\\ijpb-17-00010.pdf"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Crop Disease Prediction System.md",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Crop Disease Prediction System.md"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Crop Disease Prediction System.url",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Crop Disease Prediction System.url"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.md",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.md"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.pdf",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.pdf"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.url",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.url"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.md",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.md"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.pdf",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.pdf"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.url",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.url"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.md",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.md"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.url",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.url"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.md",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.md"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.url",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.url"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+      "organized_path": "03_IA_vision_artificial_UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf",
+      "organized_path": "03_IA_vision_artificial_UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf",
+      "organized_path": "03_IA_vision_artificial_UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.md",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.md"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.pdf",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.pdf"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.url",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.url"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.md",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.md"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.pdf",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.pdf"
+    },
+    {
+      "original_path": "Vision artificial y UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.url",
+      "organized_path": "03_IA_vision_artificial_UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.url"
+    }
+  ],
+  "urls": [
+    {
+      "file": "_Bibliografia adicional 2026\\01_Antracnosis_Uysal_Kurt_2020.url",
+      "url": "https://doi.org/10.1016/j.cropro.2020.105145"
+    },
+    {
+      "file": "_Bibliografia adicional 2026\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+      "url": "https://doi.org/10.1094/PDIS-03-25-0523-PDN"
+    },
+    {
+      "file": "_Bibliografia adicional 2026\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+      "url": "https://www.nature.com/articles/s41598-021-02113-5"
+    },
+    {
+      "file": "_Bibliografia adicional 2026\\04_Cercospora_van_Eeden_Korsten_2013.url",
+      "url": "https://doi.org/10.2174/22115501113029990001"
+    },
+    {
+      "file": "_Bibliografia adicional 2026\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+      "url": "https://doi.org/10.1080/01647954.2022.2134923"
+    },
+    {
+      "file": "_Bibliografia adicional 2026\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+      "url": "https://doi.org/10.1093/jee/toab029"
+    },
+    {
+      "file": "_Bibliografia adicional 2026\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/ptb2011/septiembre/0672711/0672711_A1.pdf"
+    },
+    {
+      "file": "_Bibliografia adicional 2026\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+      "url": "https://indianjournals.com/article/aj-21-1-015"
+    },
+    {
+      "file": "_Bibliografia adicional 2026\\09_Rona_Scab_Belizaire_2024.url",
+      "url": "https://doi.org/10.1094/PHP-10-23-0084-DG"
+    },
+    {
+      "file": "_Bibliografia adicional 2026\\10_Rona_Scab_Chellappan_2024_PDF.url",
+      "url": "https://www.aimspress.com/aimspress-data/aimsmicro/2024/4/PDF/microbiol-10-04-039.pdf"
+    },
+    {
+      "file": "Agallas foliares\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/ptb2011/septiembre/0672711/0672711_A1.pdf"
+    },
+    {
+      "file": "Agallas foliares\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+      "url": "https://indianjournals.com/article/aj-21-1-015"
+    },
+    {
+      "file": "Antracnosis\\01_Antracnosis_Uysal_Kurt_2020.url",
+      "url": "https://doi.org/10.1016/j.cropro.2020.105145"
+    },
+    {
+      "file": "Antracnosis\\IEEE Xplore\\Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.url",
+      "url": "https://doi.org/10.1109/INOCON60754.2024.10512211"
+    },
+    {
+      "file": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.url",
+      "url": "https://ieeexplore.ieee.org/document/10544074"
+    },
+    {
+      "file": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+      "url": "https://ieeexplore.ieee.org/document/10544074"
+    },
+    {
+      "file": "Antracnosis\\WoS_DOI\\Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.url",
+      "url": "https://www.mdpi.com/2624-7402/8/8/340"
+    },
+    {
+      "file": "Araña roja\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+      "url": "https://doi.org/10.1080/01647954.2022.2134923"
+    },
+    {
+      "file": "Araña roja\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+      "url": "https://doi.org/10.1093/jee/toab029"
+    },
+    {
+      "file": "Cercospora\\04_Cercospora_van_Eeden_Korsten_2013.url",
+      "url": "https://doi.org/10.2174/22115501113029990001"
+    },
+    {
+      "file": "Cultivos comparativos\\IEEE Xplore\\CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.url",
+      "url": "https://ieeexplore.ieee.org/document/10883522/"
+    },
+    {
+      "file": "Cultivos comparativos\\IEEE Xplore\\Image-Based Plant Leaf Disease Detection using Deep Learning.url",
+      "url": "https://ieeexplore.ieee.org/document/10627918/"
+    },
+    {
+      "file": "Cultivos comparativos\\IEEE Xplore\\Plant Disease Detection Using Deep Learning.url",
+      "url": "https://ieeexplore.ieee.org/document/9417910/"
+    },
+    {
+      "file": "Mosca blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+      "url": "https://ieeexplore.ieee.org/document/10458943/"
+    },
+    {
+      "file": "Pseudocercospora purpurea\\WoS_DOI\\First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.url",
+      "url": "https://apsjournals.apsnet.org/doi/10.1094/PDIS-03-25-0523-PDN"
+    },
+    {
+      "file": "Roña\\09_Rona_Scab_Belizaire_2024.url",
+      "url": "https://doi.org/10.1094/PHP-10-23-0084-DG"
+    },
+    {
+      "file": "Roña\\10_Rona_Scab_Chellappan_2024_PDF.url",
+      "url": "https://www.aimspress.com/aimspress-data/aimsmicro/2024/4/PDF/microbiol-10-04-039.pdf"
+    },
+    {
+      "file": "Roña\\WoS_DOI\\Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.url",
+      "url": "https://apsjournals.apsnet.org/doi/10.1094/PHP-10-23-0084-DG"
+    },
+    {
+      "file": "Tizón de la hoja\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+      "url": "https://doi.org/10.1094/PDIS-03-25-0523-PDN"
+    },
+    {
+      "file": "Tizón de la hoja\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+      "url": "https://www.nature.com/articles/s41598-021-02113-5"
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Crop Disease Prediction System.url",
+      "url": "https://ieeexplore.ieee.org/document/11582865"
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.url",
+      "url": "https://ieeexplore.ieee.org/document/10599267"
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.url",
+      "url": "https://ieeexplore.ieee.org/document/10458943"
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+      "url": "https://ieeexplore.ieee.org/document/10458943/"
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.url",
+      "url": "https://doi.org/10.1109/ICOECA66273.2025.00181"
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.url",
+      "url": "https://ieeexplore.ieee.org/document/9579783/"
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+      "url": "https://ieeexplore.ieee.org/document/10544074"
+    },
+    {
+      "file": "Vision artificial y UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.url",
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1736123/full"
+    },
+    {
+      "file": "Vision artificial y UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.url",
+      "url": "https://www.nature.com/articles/s41598-026-50025-z"
+    }
+  ],
+  "markdown": [
+    {
+      "file": "_Bibliografia adicional 2026\\LEEME.md",
+      "title": "Bibliografía adicional — enfermedades y plagas foliares del aguacate",
+      "size_kb": 2.4
+    },
+    {
+      "file": "Antracnosis\\IEEE Xplore\\Enhanced Multiclassification of Avocado Leaf Diseases CNN and Random Forest Integration.md",
+      "title": "Enhanced Multiclassification of Avocado Leaf Diseases: CNN and Random Forest Integration",
+      "size_kb": 1.0
+    },
+    {
+      "file": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.md",
+      "title": "Unified Approach for Avocado Leaf Disease Classification: CNN-SVM Fusion",
+      "size_kb": 1.0
+    },
+    {
+      "file": "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md",
+      "title": "Unified Approach for Avocado Leaf Disease Classification: CNN-SVM Fusion",
+      "size_kb": 0.7
+    },
+    {
+      "file": "Antracnosis\\WoS_DOI\\Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazona.md",
+      "title": "Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazonas, Peru",
+      "size_kb": 1.0
+    },
+    {
+      "file": "Cultivos comparativos\\IEEE Xplore\\CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture.md",
+      "title": "CNN-Based Plant Leaf Disease Identification and Classification for Sustainable Agriculture",
+      "size_kb": 0.7
+    },
+    {
+      "file": "Cultivos comparativos\\IEEE Xplore\\Image-Based Plant Leaf Disease Detection using Deep Learning.md",
+      "title": "Image-Based Plant Leaf Disease Detection using Deep Learning",
+      "size_kb": 0.7
+    },
+    {
+      "file": "Cultivos comparativos\\IEEE Xplore\\Plant Disease Detection Using Deep Learning.md",
+      "title": "Plant Disease Detection Using Deep Learning",
+      "size_kb": 0.6
+    },
+    {
+      "file": "Mosca blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md",
+      "title": "Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificial Intelligence: A Review",
+      "size_kb": 0.7
+    },
+    {
+      "file": "Pseudocercospora purpurea\\WoS_DOI\\First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China.md",
+      "title": "First Report of Pseudocercospora norchiensis Causing Leaf Blight on Persea americana in China",
+      "size_kb": 1.0
+    },
+    {
+      "file": "README.md",
+      "title": "EnfermedadesAguacate",
+      "size_kb": 0.0
+    },
+    {
+      "file": "Roña\\WoS_DOI\\Avocado Scab Caused by Elsinoe perseae A Diagnostic Guide.md",
+      "title": "Avocado Scab Caused by Elsinoe perseae: A Diagnostic Guide",
+      "size_kb": 0.9
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Crop Disease Prediction System.md",
+      "title": "Crop Disease Prediction System",
+      "size_kb": 0.9
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.md",
+      "title": "Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explainable Artificial Intelligence",
+      "size_kb": 1.2
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.md",
+      "title": "Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificial Intelligence: A Review",
+      "size_kb": 1.2
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.md",
+      "title": "Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificial Intelligence: A Review",
+      "size_kb": 0.7
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algori.md",
+      "title": "Real-Time Avocado Plant Health and Disease Detection Using UAV Imagery with Faster R-CNN Algorithm",
+      "size_kb": 1.0
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny.md",
+      "title": "Real-Time Detection and Identification of Plant Leaf Diseases using YOLOv4-tiny",
+      "size_kb": 0.7
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.md",
+      "title": "Unified Approach for Avocado Leaf Disease Classification: CNN-SVM Fusion",
+      "size_kb": 0.8
+    },
+    {
+      "file": "Vision artificial y UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.md",
+      "title": "ApaltAI: a web-based diagnostic system with a sequential voting architecture for detecting anthracnose and scab in avocado fruit",
+      "size_kb": 1.2
+    },
+    {
+      "file": "Vision artificial y UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.md",
+      "title": "Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards",
+      "size_kb": 1.2
+    }
+  ],
+  "pdfs": [
+    {
+      "file": "Agallas foliares\\s10971-026-07179-z.pdf",
+      "size_mb": 3.84,
+      "pages": 17,
+      "title": "Silica-based nanomaterials for the control of Trioza anceps: Laboratory bioassays and preliminary field observations",
+      "duplicate_group": ""
+    },
+    {
+      "file": "Antracnosis\\agriengineering-08-00340.pdf",
+      "size_mb": 5.31,
+      "pages": 19,
+      "title": "Spatial Mapping of Avocado Anthracnose Severity Using UAV-Derived Vegetation Indices in Amazonas, Peru",
+      "duplicate_group": ""
+    },
+    {
+      "file": "Antracnosis\\s41598-026-50025-z.pdf",
+      "size_mb": 6.79,
+      "pages": 25,
+      "duplicate_group": "b07796789b"
+    },
+    {
+      "file": "Antracnosis\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+      "size_mb": 6.79,
+      "pages": 25,
+      "duplicate_group": "b07796789b"
+    },
+    {
+      "file": "Antracnosis\\Springer\\s00253-026-13715-2.pdf",
+      "size_mb": 3.08,
+      "pages": 16,
+      "duplicate_group": ""
+    },
+    {
+      "file": "Cercospora\\rcch,+03_Validation+of+black+spot+[(Pseudocercospora+purpurea+(Cooke)+Deighton]+management+strategies+in+avocado+crops+in+norther.pdf",
+      "size_mb": 0.6,
+      "pages": 14,
+      "title": "Validation of black spot [(Pseudocercospora purpurea (Cooke) Deighton] management strategies in avocado crops in northern Tolima (Colombia)",
+      "duplicate_group": ""
+    },
+    {
+      "file": "Cultivos comparativos\\Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf",
+      "size_mb": 1.22,
+      "pages": 6,
+      "duplicate_group": "473dae4d68"
+    },
+    {
+      "file": "Cultivos comparativos\\Simultaneously prediction of multiple wheat leaf phenotypes using.pdf",
+      "size_mb": 5.16,
+      "pages": 15,
+      "title": "Simultaneously prediction of multiple wheat leaf phenotypes using hyperspectral imaging with multi-task machine and deep learning",
+      "duplicate_group": "d46784fd34"
+    },
+    {
+      "file": "Fisiologia y riego\\Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf",
+      "size_mb": 3.81,
+      "pages": 10,
+      "title": "Mitigating negative effects of long-term treated wastewater irrigation: Leaf gas exchange and water use efficiency response of avocado trees ( Persea americana Mill.)",
+      "duplicate_group": "30999757b2"
+    },
+    {
+      "file": "Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf",
+      "size_mb": 1.22,
+      "pages": 6,
+      "duplicate_group": "473dae4d68"
+    },
+    {
+      "file": "Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf",
+      "size_mb": 3.81,
+      "pages": 10,
+      "title": "Mitigating negative effects of long-term treated wastewater irrigation: Leaf gas exchange and water use efficiency response of avocado trees ( Persea americana Mill.)",
+      "duplicate_group": "30999757b2"
+    },
+    {
+      "file": "Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf",
+      "size_mb": 14.11,
+      "pages": 12,
+      "title": "Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning",
+      "duplicate_group": "560418638d"
+    },
+    {
+      "file": "Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf",
+      "size_mb": 14.11,
+      "pages": 12,
+      "title": "Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning",
+      "duplicate_group": "cf449a1729"
+    },
+    {
+      "file": "Simultaneously prediction of multiple wheat leaf phenotypes using.pdf",
+      "size_mb": 5.16,
+      "pages": 15,
+      "title": "Simultaneously prediction of multiple wheat leaf phenotypes using hyperspectral imaging with multi-task machine and deep learning",
+      "duplicate_group": "d46784fd34"
+    },
+    {
+      "file": "Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+      "size_mb": 6.79,
+      "pages": 25,
+      "duplicate_group": "b07796789b"
+    },
+    {
+      "file": "Tizón de la hoja\\ijpb-17-00010.pdf",
+      "size_mb": 9.83,
+      "pages": 15,
+      "title": "Colletotrichum fructicola Causes Necrotic Leaf Lesions in Avocado (Persea americana) in Amazonas, Peru: First Record and In Vitro Control Using Piper Essential Oils",
+      "duplicate_group": ""
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explaina.pdf",
+      "size_mb": 2.32,
+      "pages": 10,
+      "title": "Improving Plant Disease Classification With Deep-Learning-Based Prediction Model Using Explainable Artificial Intelligence",
+      "duplicate_group": ""
+    },
+    {
+      "file": "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection, Classification, and Diagnosis Using Computer Vision and Artificia.pdf",
+      "size_mb": 5.78,
+      "pages": 27,
+      "duplicate_group": ""
+    },
+    {
+      "file": "Vision artificial y UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf",
+      "size_mb": 14.11,
+      "pages": 12,
+      "title": "Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning",
+      "duplicate_group": "560418638d"
+    },
+    {
+      "file": "Vision artificial y UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf",
+      "size_mb": 14.11,
+      "pages": 12,
+      "title": "Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning",
+      "duplicate_group": "cf449a1729"
+    },
+    {
+      "file": "Vision artificial y UAV\\WoS_DOI\\ApaltAI a web-based diagnostic system with a sequential voting architecture for detecting anthr.pdf",
+      "size_mb": 3.72,
+      "pages": 15,
+      "title": "ApaltAI: a web-based diagnostic system with a sequential voting architecture for detecting anthracnose and scab in avocado fruit",
+      "duplicate_group": ""
+    },
+    {
+      "file": "Vision artificial y UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.pdf",
+      "size_mb": 6.79,
+      "pages": 25,
+      "duplicate_group": "b07796789b"
+    }
+  ],
+  "workbooks": [
+    {
+      "file": "Aguacate.xlsx",
+      "sheets": [
+        {
+          "sheet": "Enfermedad",
+          "rows": 13,
+          "cols": 8,
+          "nonempty_rows": 11
+        },
+        {
+          "sheet": "Cadenas busqueda",
+          "rows": 10,
+          "cols": 14,
+          "nonempty_rows": 10
+        },
+        {
+          "sheet": "Antracnosis",
+          "rows": 2,
+          "cols": 2,
+          "nonempty_rows": 0
+        },
+        {
+          "sheet": "Mancha de Cercospora",
+          "rows": 1,
+          "cols": 1,
+          "nonempty_rows": 0
+        },
+        {
+          "sheet": "Araña roja",
+          "rows": 1,
+          "cols": 1,
+          "nonempty_rows": 0
+        },
+        {
+          "sheet": "Tizón foliar",
+          "rows": 1,
+          "cols": 1,
+          "nonempty_rows": 0
+        },
+        {
+          "sheet": "Agallas foliares",
+          "rows": 1,
+          "cols": 1,
+          "nonempty_rows": 0
+        }
+      ],
+      "key_counts": {}
+    },
+    {
+      "file": "Aguacate_cadenas_busqueda.xlsx",
+      "sheets": [
+        {
+          "sheet": "Enfermedad",
+          "rows": 13,
+          "cols": 8,
+          "nonempty_rows": 11
+        },
+        {
+          "sheet": "Antracnosis",
+          "rows": 2,
+          "cols": 2,
+          "nonempty_rows": 0
+        },
+        {
+          "sheet": "Mancha de Cercospora",
+          "rows": 1,
+          "cols": 1,
+          "nonempty_rows": 0
+        },
+        {
+          "sheet": "Araña roja",
+          "rows": 1,
+          "cols": 1,
+          "nonempty_rows": 0
+        },
+        {
+          "sheet": "Tizón foliar",
+          "rows": 1,
+          "cols": 1,
+          "nonempty_rows": 0
+        },
+        {
+          "sheet": "Agallas foliares",
+          "rows": 1,
+          "cols": 1,
+          "nonempty_rows": 0
+        },
+        {
+          "sheet": "Cadenas busqueda",
+          "rows": 10,
+          "cols": 14,
+          "nonempty_rows": 10
+        }
+      ],
+      "key_counts": {}
+    },
+    {
+      "file": "SRL_Excel\\SLR_Hojas_aguacate_PLANTILLA_V1.0.xlsx",
+      "sheets": [
+        {
+          "sheet": "Protocolo",
+          "rows": 48,
+          "cols": 2,
+          "nonempty_rows": 40
+        },
+        {
+          "sheet": "Cadenas_de_busqueda",
+          "rows": 23,
+          "cols": 9,
+          "nonempty_rows": 10
+        },
+        {
+          "sheet": "Base_consolidada",
+          "rows": 591,
+          "cols": 12,
+          "nonempty_rows": 58
+        },
+        {
+          "sheet": "Duplicados_y_exclusion",
+          "rows": 591,
+          "cols": 10,
+          "nonempty_rows": 3
+        },
+        {
+          "sheet": "Tamizaje_Tit_Abs_Keys",
+          "rows": 201,
+          "cols": 14,
+          "nonempty_rows": 3
+        },
+        {
+          "sheet": "Calidad_articulos",
+          "rows": 303,
+          "cols": 16,
+          "nonempty_rows": 303
+        },
+        {
+          "sheet": "Articulos_finales",
+          "rows": 32,
+          "cols": 18,
+          "nonempty_rows": 3
+        },
+        {
+          "sheet": "Articulos_finales_ok",
+          "rows": 53,
+          "cols": 6,
+          "nonempty_rows": 1
+        },
+        {
+          "sheet": "Resumen_ejecutivo",
+          "rows": 26,
+          "cols": 10,
+          "nonempty_rows": 19
+        }
+      ],
+      "key_counts": {}
+    },
+    {
+      "file": "SRL_Excel\\SLR_Hojas_aguacate_V1.1.xlsx",
+      "sheets": [
+        {
+          "sheet": "Protocolo",
+          "rows": 48,
+          "cols": 2,
+          "nonempty_rows": 40
+        },
+        {
+          "sheet": "Cadenas_de_busqueda",
+          "rows": 14,
+          "cols": 9,
+          "nonempty_rows": 13
+        },
+        {
+          "sheet": "Base_consolidada",
+          "rows": 15,
+          "cols": 12,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Duplicados_y_exclusion",
+          "rows": 15,
+          "cols": 10,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Tamizaje_Tit_Abs_Keys",
+          "rows": 15,
+          "cols": 14,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Calidad_articulos",
+          "rows": 15,
+          "cols": 16,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Articulos_finales",
+          "rows": 15,
+          "cols": 18,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Articulos_finales_ok",
+          "rows": 6,
+          "cols": 6,
+          "nonempty_rows": 6
+        },
+        {
+          "sheet": "Resumen_ejecutivo",
+          "rows": 26,
+          "cols": 10,
+          "nonempty_rows": 20
+        }
+      ],
+      "key_counts": {}
+    },
+    {
+      "file": "SRL_Excel\\SLR_Hojas_aguacate_V1.2.xlsx",
+      "sheets": [
+        {
+          "sheet": "Protocolo",
+          "rows": 48,
+          "cols": 2,
+          "nonempty_rows": 40
+        },
+        {
+          "sheet": "Cadenas_de_busqueda",
+          "rows": 14,
+          "cols": 9,
+          "nonempty_rows": 13
+        },
+        {
+          "sheet": "Base_consolidada",
+          "rows": 52,
+          "cols": 12,
+          "nonempty_rows": 52
+        },
+        {
+          "sheet": "Duplicados_y_exclusion",
+          "rows": 15,
+          "cols": 10,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Tamizaje_Tit_Abs_Keys",
+          "rows": 15,
+          "cols": 14,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Calidad_articulos",
+          "rows": 15,
+          "cols": 16,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Articulos_finales",
+          "rows": 15,
+          "cols": 18,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Articulos_finales_ok",
+          "rows": 6,
+          "cols": 6,
+          "nonempty_rows": 6
+        },
+        {
+          "sheet": "Resumen_ejecutivo",
+          "rows": 26,
+          "cols": 10,
+          "nonempty_rows": 20
+        }
+      ],
+      "key_counts": {}
+    },
+    {
+      "file": "SRL_Excel\\SLR_Hojas_aguacate_V1.3.xlsx",
+      "sheets": [
+        {
+          "sheet": "Protocolo",
+          "rows": 48,
+          "cols": 2,
+          "nonempty_rows": 40
+        },
+        {
+          "sheet": "Cadenas_de_busqueda",
+          "rows": 14,
+          "cols": 9,
+          "nonempty_rows": 13
+        },
+        {
+          "sheet": "Base_consolidada",
+          "rows": 52,
+          "cols": 12,
+          "nonempty_rows": 52
+        },
+        {
+          "sheet": "Duplicados_y_exclusion",
+          "rows": 15,
+          "cols": 10,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Tamizaje_Tit_Abs_Keys",
+          "rows": 15,
+          "cols": 14,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Calidad_articulos",
+          "rows": 15,
+          "cols": 16,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Articulos_finales",
+          "rows": 15,
+          "cols": 18,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Articulos_finales_ok",
+          "rows": 6,
+          "cols": 6,
+          "nonempty_rows": 6
+        },
+        {
+          "sheet": "Resumen_ejecutivo",
+          "rows": 26,
+          "cols": 10,
+          "nonempty_rows": 20
+        }
+      ],
+      "key_counts": {}
+    },
+    {
+      "file": "SRL_Excel\\SLR_Hojas_aguacate_V1.4.xlsx",
+      "sheets": [
+        {
+          "sheet": "Protocolo",
+          "rows": 48,
+          "cols": 2,
+          "nonempty_rows": 40
+        },
+        {
+          "sheet": "Cadenas_de_busqueda",
+          "rows": 14,
+          "cols": 9,
+          "nonempty_rows": 13
+        },
+        {
+          "sheet": "Base_consolidada",
+          "rows": 52,
+          "cols": 12,
+          "nonempty_rows": 52
+        },
+        {
+          "sheet": "Duplicados_y_exclusion",
+          "rows": 15,
+          "cols": 10,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Tamizaje_Tit_Abs_Keys",
+          "rows": 15,
+          "cols": 14,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Calidad_articulos",
+          "rows": 15,
+          "cols": 16,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Articulos_finales",
+          "rows": 15,
+          "cols": 18,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Articulos_finales_ok",
+          "rows": 6,
+          "cols": 6,
+          "nonempty_rows": 6
+        },
+        {
+          "sheet": "Resumen_ejecutivo",
+          "rows": 26,
+          "cols": 10,
+          "nonempty_rows": 20
+        }
+      ],
+      "key_counts": {}
+    },
+    {
+      "file": "SRL_Excel\\SLR_Hojas_aguacate_V1.5.xlsx",
+      "sheets": [
+        {
+          "sheet": "Protocolo",
+          "rows": 48,
+          "cols": 2,
+          "nonempty_rows": 40
+        },
+        {
+          "sheet": "Cadenas_de_busqueda",
+          "rows": 14,
+          "cols": 9,
+          "nonempty_rows": 13
+        },
+        {
+          "sheet": "Base_consolidada",
+          "rows": 52,
+          "cols": 12,
+          "nonempty_rows": 52
+        },
+        {
+          "sheet": "Duplicados_y_exclusion",
+          "rows": 15,
+          "cols": 10,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Tamizaje_Tit_Abs_Keys",
+          "rows": 15,
+          "cols": 14,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Calidad_articulos",
+          "rows": 15,
+          "cols": 16,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Articulos_finales",
+          "rows": 15,
+          "cols": 18,
+          "nonempty_rows": 15
+        },
+        {
+          "sheet": "Articulos_finales_ok",
+          "rows": 6,
+          "cols": 6,
+          "nonempty_rows": 6
+        },
+        {
+          "sheet": "Resumen_ejecutivo",
+          "rows": 26,
+          "cols": 10,
+          "nonempty_rows": 20
+        }
+      ],
+      "key_counts": {}
+    },
+    {
+      "file": "SRL_Excel\\SLR_Hojas_aguacate_V1.6.xlsx",
+      "sheets": [
+        {
+          "sheet": "Protocolo",
+          "rows": 52,
+          "cols": 2,
+          "nonempty_rows": 44
+        },
+        {
+          "sheet": "Cadenas_de_busqueda",
+          "rows": 12,
+          "cols": 9,
+          "nonempty_rows": 11
+        },
+        {
+          "sheet": "Base_consolidada",
+          "rows": 51,
+          "cols": 12,
+          "nonempty_rows": 51
+        },
+        {
+          "sheet": "Duplicados_y_exclusion",
+          "rows": 51,
+          "cols": 10,
+          "nonempty_rows": 51
+        },
+        {
+          "sheet": "Tamizaje_Tit_Abs_Keys",
+          "rows": 51,
+          "cols": 14,
+          "nonempty_rows": 51
+        },
+        {
+          "sheet": "Calidad_articulos",
+          "rows": 51,
+          "cols": 16,
+          "nonempty_rows": 51
+        },
+        {
+          "sheet": "Articulos_finales",
+          "rows": 38,
+          "cols": 18,
+          "nonempty_rows": 38
+        },
+        {
+          "sheet": "Articulos_finales_ok",
+          "rows": 17,
+          "cols": 6,
+          "nonempty_rows": 17
+        },
+        {
+          "sheet": "Resumen_ejecutivo",
+          "rows": 26,
+          "cols": 10,
+          "nonempty_rows": 20
+        }
+      ],
+      "key_counts": {}
+    },
+    {
+      "file": "SRL_Excel\\SLR_Hojas_aguacate_V1.7.xlsx",
+      "sheets": [
+        {
+          "sheet": "Protocolo",
+          "rows": 52,
+          "cols": 2,
+          "nonempty_rows": 44
+        },
+        {
+          "sheet": "Cadenas_de_busqueda",
+          "rows": 18,
+          "cols": 9,
+          "nonempty_rows": 17
+        },
+        {
+          "sheet": "Base_consolidada",
+          "rows": 57,
+          "cols": 12,
+          "nonempty_rows": 57
+        },
+        {
+          "sheet": "Duplicados_y_exclusion",
+          "rows": 51,
+          "cols": 10,
+          "nonempty_rows": 51
+        },
+        {
+          "sheet": "Tamizaje_Tit_Abs_Keys",
+          "rows": 51,
+          "cols": 14,
+          "nonempty_rows": 51
+        },
+        {
+          "sheet": "Calidad_articulos",
+          "rows": 51,
+          "cols": 16,
+          "nonempty_rows": 51
+        },
+        {
+          "sheet": "Articulos_finales",
+          "rows": 38,
+          "cols": 18,
+          "nonempty_rows": 38
+        },
+        {
+          "sheet": "Articulos_finales_ok",
+          "rows": 17,
+          "cols": 6,
+          "nonempty_rows": 17
+        },
+        {
+          "sheet": "Resumen_ejecutivo",
+          "rows": 26,
+          "cols": 10,
+          "nonempty_rows": 20
+        }
+      ],
+      "key_counts": {}
+    },
+    {
+      "file": "SRL_Excel\\~$SLR_Hojas_aguacate_V1.7.xlsx",
+      "sheets": [],
+      "key_counts": {},
+      "note": "Temporal de Excel omitido"
+    }
+  ],
+  "duplicates": [
+    {
+      "type": "hash_exacto",
+      "group": "2746d8ab4b",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+        "Araña roja\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "30999757b2",
+      "count": 2,
+      "items": [
+        "Fisiologia y riego\\Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf",
+        "Mitigating negative effects of long-term treated wastewater irrigationLeaf.pdf"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "37811baf53",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\09_Rona_Scab_Belizaire_2024.url",
+        "Roña\\09_Rona_Scab_Belizaire_2024.url"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "44ecd87e84",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+        "Agallas foliares\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "45eaf481fc",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\01_Antracnosis_Uysal_Kurt_2020.url",
+        "Antracnosis\\01_Antracnosis_Uysal_Kurt_2020.url"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "473dae4d68",
+      "count": 2,
+      "items": [
+        "Cultivos comparativos\\Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf",
+        "Implementation-of-deep-learning-for-image-based-potato-leaf-disease-detection.pdf"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "4f98120998",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\10_Rona_Scab_Chellappan_2024_PDF.url",
+        "Roña\\10_Rona_Scab_Chellappan_2024_PDF.url"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "55dacb4c20",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+        "Araña roja\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "560418638d",
+      "count": 2,
+      "items": [
+        "Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf",
+        "Vision artificial y UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery and YOLO-based deep learning.pdf"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "b07796789b",
+      "count": 4,
+      "items": [
+        "Antracnosis\\s41598-026-50025-z.pdf",
+        "Antracnosis\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+        "Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.pdf",
+        "Vision artificial y UAV\\WoS_DOI\\Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avoca.pdf"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "b4954540bc",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+        "Agallas foliares\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "c340ccb913",
+      "count": 3,
+      "items": [
+        "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.url",
+        "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+        "Vision artificial y UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "cf449a1729",
+      "count": 2,
+      "items": [
+        "Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf",
+        "Vision artificial y UAV\\Real-time hass avocado ripeness detection using close-range UAV imagery1.pdf"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "d0fc832beb",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+        "Tizón de la hoja\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "d46784fd34",
+      "count": 2,
+      "items": [
+        "Cultivos comparativos\\Simultaneously prediction of multiple wheat leaf phenotypes using.pdf",
+        "Simultaneously prediction of multiple wheat leaf phenotypes using.pdf"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "e84b637601",
+      "count": 2,
+      "items": [
+        "Mosca blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+        "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "f414ef0ce0",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\04_Cercospora_van_Eeden_Korsten_2013.url",
+        "Cercospora\\04_Cercospora_van_Eeden_Korsten_2013.url"
+      ]
+    },
+    {
+      "type": "hash_exacto",
+      "group": "f67ce4193c",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+        "Tizón de la hoja\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://doi.org/10.1016/j.cropro.2020.105145",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\01_Antracnosis_Uysal_Kurt_2020.url",
+        "Antracnosis\\01_Antracnosis_Uysal_Kurt_2020.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://doi.org/10.1080/01647954.2022.2134923",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url",
+        "Araña roja\\05_Arana_roja_Oligonychus_perseae_Torres_2022.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://doi.org/10.1093/jee/toab029",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url",
+        "Araña roja\\06_Arana_roja_Oligonychus_punicae_Oliveira_2021.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://doi.org/10.1094/PDIS-03-25-0523-PDN",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url",
+        "Tizón de la hoja\\02_Tizon_Pseudocercospora_norchiensis_Dai_2026.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://doi.org/10.1094/PHP-10-23-0084-DG",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\09_Rona_Scab_Belizaire_2024.url",
+        "Roña\\09_Rona_Scab_Belizaire_2024.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://doi.org/10.2174/22115501113029990001",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\04_Cercospora_van_Eeden_Korsten_2013.url",
+        "Cercospora\\04_Cercospora_van_Eeden_Korsten_2013.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://ieeexplore.ieee.org/document/10458943/",
+      "count": 2,
+      "items": [
+        "Mosca blanca\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url",
+        "Vision artificial y UAV\\IEEE Xplore\\Plant Leaf Disease Detection_ Classification_ and Diagnosis Using Computer Vision and Artificial Intelligence_ A Review.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://ieeexplore.ieee.org/document/10544074",
+      "count": 3,
+      "items": [
+        "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification CNN-SVM Fusion.url",
+        "Antracnosis\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url",
+        "Vision artificial y UAV\\IEEE Xplore\\Unified Approach for Avocado Leaf Disease Classification_ CNN-SVM Fusion.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://indianjournals.com/article/aj-21-1-015",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url",
+        "Agallas foliares\\08_Agallas_Trioza_anceps_Rincon_Hernandez_2008.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://tesiunamdocumentos.dgb.unam.mx/ptb2011/septiembre/0672711/0672711_A1.pdf",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url",
+        "Agallas foliares\\07_Agallas_Trioza_anceps_Torres_Gurrola_2011_UNAM.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://www.aimspress.com/aimspress-data/aimsmicro/2024/4/PDF/microbiol-10-04-039.pdf",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\10_Rona_Scab_Chellappan_2024_PDF.url",
+        "Roña\\10_Rona_Scab_Chellappan_2024_PDF.url"
+      ]
+    },
+    {
+      "type": "url_repetida",
+      "group": "https://www.nature.com/articles/s41598-021-02113-5",
+      "count": 2,
+      "items": [
+        "_Bibliografia adicional 2026\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url",
+        "Tizón de la hoja\\03_Tizon_Neopestalotiopsis_Darapanit_2021.url"
+      ]
+    }
+  ],
+  "slr": {
+    "file": "SRL_Excel\\SLR_Hojas_aguacate_V1.7.xlsx",
+    "metrics": [
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Registros",
+        "value": 14
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Base de datos",
+        "value": "Scopus",
+        "count": 7
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Base de datos",
+        "value": "Web of Science",
+        "count": 4
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Base de datos",
+        "value": "IEEE Xplore",
+        "count": 3
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Grupo",
+        "value": "TODOS",
+        "count": 4
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Grupo",
+        "value": "Antracnosis",
+        "count": 2
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Grupo",
+        "value": "Roña",
+        "count": 2
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Grupo",
+        "value": "Cercospora",
+        "count": 1
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Grupo",
+        "value": "Araña roja",
+        "count": 1
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Grupo",
+        "value": "Agallas foliares",
+        "count": 1
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Grupo",
+        "value": "Tizón foliar",
+        "count": 1
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Grupo",
+        "value": "Visión artificial",
+        "count": 1
+      },
+      {
+        "sheet": "Cadenas_de_busqueda",
+        "metric": "Grupo",
+        "value": "Pseudocercospora / Cercospora",
+        "count": 1
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Registros",
+        "value": 54
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Base de datos",
+        "value": "IEEE Xplore",
+        "count": 17
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Base de datos",
+        "value": "Web / DOI",
+        "count": 10
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Base de datos",
+        "value": "Scopus",
+        "count": 9
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Base de datos",
+        "value": "PDF local",
+        "count": 8
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Base de datos",
+        "value": "Web of Science / DOI",
+        "count": 5
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Base de datos",
+        "value": "BibTeX",
+        "count": 4
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Base de datos",
+        "value": "Springer",
+        "count": 1
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Año",
+        "value": "2026",
+        "count": 10
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Año",
+        "value": "2024",
+        "count": 8
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Año",
+        "value": "2023",
+        "count": 5
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Año",
+        "value": "2020",
+        "count": 4
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Año",
+        "value": "2025",
+        "count": 4
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Año",
+        "value": "2021",
+        "count": 4
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Año",
+        "value": "2008",
+        "count": 1
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Año",
+        "value": "2011",
+        "count": 1
+      },
+      {
+        "sheet": "Base_consolidada",
+        "metric": "Año",
+        "value": "2022",
+        "count": 1
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Registros",
+        "value": 48
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Base de datos",
+        "value": "IEEE Xplore",
+        "count": 14
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Base de datos",
+        "value": "Scopus",
+        "count": 11
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Base de datos",
+        "value": "Web / DOI",
+        "count": 10
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Base de datos",
+        "value": "PDF local",
+        "count": 8
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Base de datos",
+        "value": "BibTeX",
+        "count": 4
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Base de datos",
+        "value": "Springer",
+        "count": 1
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Decisión",
+        "value": "Conservar",
+        "count": 24
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Decisión",
+        "value": "Revisar",
+        "count": 16
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Decisión",
+        "value": "Excluir",
+        "count": 6
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Decisión",
+        "value": "Reserva",
+        "count": 2
+      },
+      {
+        "sheet": "Duplicados_y_exclusion",
+        "metric": "Duplicado",
+        "value": "No",
+        "count": 48
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Registros",
+        "value": 48
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Base de datos",
+        "value": "IEEE Xplore",
+        "count": 14
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Base de datos",
+        "value": "Scopus",
+        "count": 11
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Base de datos",
+        "value": "Web / DOI",
+        "count": 10
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Base de datos",
+        "value": "PDF local",
+        "count": 8
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Base de datos",
+        "value": "BibTeX",
+        "count": 4
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Base de datos",
+        "value": "Springer",
+        "count": 1
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Evidencia de Inteligencia Artificial",
+        "value": "No",
+        "count": 28
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Evidencia de Inteligencia Artificial",
+        "value": "Sí",
+        "count": 20
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Evidencia de aplicación móvil",
+        "value": "No",
+        "count": 45
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Evidencia de aplicación móvil",
+        "value": "Sí",
+        "count": 3
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Nivel de alineación con el objetivo",
+        "value": "Alta",
+        "count": 21
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Nivel de alineación con el objetivo",
+        "value": "Media",
+        "count": 19
+      },
+      {
+        "sheet": "Tamizaje_Tit_Abs_Keys",
+        "metric": "Nivel de alineación con el objetivo",
+        "value": "Baja",
+        "count": 8
+      },
+      {
+        "sheet": "Calidad_articulos",
+        "metric": "Registros",
+        "value": 48
+      },
+      {
+        "sheet": "Calidad_articulos",
+        "metric": "Base de datos",
+        "value": "IEEE Xplore",
+        "count": 14
+      },
+      {
+        "sheet": "Calidad_articulos",
+        "metric": "Base de datos",
+        "value": "Scopus",
+        "count": 11
+      },
+      {
+        "sheet": "Calidad_articulos",
+        "metric": "Base de datos",
+        "value": "Web / DOI",
+        "count": 10
+      },
+      {
+        "sheet": "Calidad_articulos",
+        "metric": "Base de datos",
+        "value": "PDF local",
+        "count": 8
+      },
+      {
+        "sheet": "Calidad_articulos",
+        "metric": "Base de datos",
+        "value": "BibTeX",
+        "count": 4
+      },
+      {
+        "sheet": "Calidad_articulos",
+        "metric": "Base de datos",
+        "value": "Springer",
+        "count": 1
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Registros",
+        "value": 35
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Base de datos",
+        "value": "IEEE Xplore",
+        "count": 12
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Base de datos",
+        "value": "Scopus",
+        "count": 9
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Base de datos",
+        "value": "PDF local",
+        "count": 7
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Base de datos",
+        "value": "Web / DOI",
+        "count": 4
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Base de datos",
+        "value": "BibTeX",
+        "count": 2
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Base de datos",
+        "value": "Springer",
+        "count": 1
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Año",
+        "value": "2026",
+        "count": 6
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Año",
+        "value": "2023",
+        "count": 5
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Año",
+        "value": "2024",
+        "count": 4
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Año",
+        "value": "2025",
+        "count": 4
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Año",
+        "value": "2021",
+        "count": 4
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Año",
+        "value": "2022",
+        "count": 1
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Nivel de alineación con el objetivo",
+        "value": "Media",
+        "count": 19
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Nivel de alineación con el objetivo",
+        "value": "Alta",
+        "count": 16
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Nivel de calidad",
+        "value": "Alta calidad",
+        "count": 34
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Nivel de calidad",
+        "value": "Media calidad",
+        "count": 1
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Decisión final (Incluir / Reserva)",
+        "value": "Reserva",
+        "count": 19
+      },
+      {
+        "sheet": "Articulos_finales",
+        "metric": "Decisión final (Incluir / Reserva)",
+        "value": "Incluir",
+        "count": 16
+      }
+    ]
+  }
+}

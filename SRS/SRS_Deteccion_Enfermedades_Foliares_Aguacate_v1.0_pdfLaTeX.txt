@@ -1,0 +1,802 @@
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[provide=*,spanish]{babel}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{longtable,booktabs,array,tabularx,ragged2e}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\geometry{top=2.2cm,bottom=2.25cm,left=2.2cm,right=2.2cm,headheight=15pt}
+\definecolor{azulSRS}{HTML}{17365D}
+\definecolor{grisSRS}{HTML}{F4F7FA}
+\hypersetup{hidelinks,pdftitle={SRS Aguacate Hojas v1.0}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{SRS Aguacate Hojas}
+\fancyhead[R]{Versión 1.0}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\titleformat{\section}{\Large\bfseries\color{azulSRS}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.7em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{0.7em}{}
+\setlist[itemize]{topsep=2pt,itemsep=2pt,parsep=0pt}
+\setlist[enumerate]{topsep=2pt,itemsep=2pt,parsep=0pt}
+\renewcommand{\arraystretch}{1.18}
+\setlength{\LTpre}{0.45em}
+\setlength{\LTpost}{0.8em}
+\newcommand{\lineabase}{\noindent\textcolor{azulSRS}{\rule{\linewidth}{0.8pt}}}
+\begin{document}
+\begin{titlepage}
+\centering
+\vspace*{2.4cm}
+{\Huge\bfseries Especificación de requisitos de software\par}
+\vspace{1.0cm}
+{\Large\bfseries Sistema de inteligencia artificial para detectar enfermedades foliares del aguacate\par}
+\vspace{1.0cm}
+\lineabase
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{4cm} >{\RaggedRight\arraybackslash}p{10.5cm}}
+Documento & SRS Aguacate Hojas \\
+Versión & 1.0 \\
+Estado & Borrador para validación de requisitos \\
+Autor & David Alexander Pilaguano Chisaguano \\
+Institución & Universidad de las Fuerzas Armadas ESPE \\
+Fecha & 21 de septiembre de 2026 \\
+\end{longtable}
+\lineabase
+\vfill
+\textit{Este documento define qué debe cumplir el sistema. El análisis y el diseño se realizarán después de validar esta versión.}
+\end{titlepage}
+\pagenumbering{roman}
+\section*{Control del documento}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{2cm}>{\RaggedRight\arraybackslash}p{3cm}>{\RaggedRight\arraybackslash}p{4.7cm}>{\RaggedRight\arraybackslash}p{5.6cm}}
+\toprule
+Versión & Fecha & Responsable & Descripción \\
+\midrule
+1.0 & 21 septiembre 2026 & David Alexander Pilaguano Chisaguano & Primera línea base del SRS para revisión y validación \\
+\bottomrule
+\end{longtable}
+\subsection*{Aprobaciones previstas}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{3.7cm}>{\RaggedRight\arraybackslash}p{9.0cm}>{\RaggedRight\arraybackslash}p{2.2cm}}
+\toprule
+Rol & Responsabilidad en la validación & Estado \\
+\midrule
+Investigador principal & Confirmar alcance, prioridades y criterios de aceptación & Pendiente \\
+Especialista fitopatólogo & Confirmar clases, criterios visuales y calidad de las etiquetas & Pendiente \\
+Administrador del servidor & Confirmar capacidad, seguridad, almacenamiento y respaldo & Pendiente \\
+Director de investigación & Aprobar la línea base para iniciar el análisis & Pendiente \\
+\bottomrule
+\end{longtable}
+\clearpage
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\section*{Resumen ejecutivo}
+\addcontentsline{toc}{section}{Resumen ejecutivo}
+Este SRS establece la línea base de requisitos para un sistema alojado en un servidor que permita construir, entrenar y evaluar manualmente un modelo de inteligencia artificial orientado a detectar enfermedades foliares del aguacate en imágenes. La versión 1.0 cubre la gestión de datos, la anotación y revisión humana, el entrenamiento desde pesos aleatorios, el registro reproducible de experimentos, la evaluación y la inferencia. No selecciona una arquitectura definitiva ni describe componentes internos.
+
+El artículo de Karthik et al. (2026) aporta el referente experimental: adquisición y anotación de imágenes, separación del conjunto de datos, control de calidad, compensación del desbalance de clases, entrenamiento y evaluación por clase. Sus resultados son una referencia técnica, no una garantía para este proyecto. El libro de Ruiz Robalino y Lucio Moreno (2025, pp. 57-61) guía la clasificación, especificación y posterior validación de los requisitos.
+\clearpage
+\section{Introducción}
+\subsection{Propósito}
+El propósito de este documento es definir de forma verificable los servicios, restricciones y atributos de calidad del sistema Aguacate Hojas. La línea base permitirá acordar qué se construirá antes de iniciar el análisis del sistema.
+
+\subsection{Alcance del documento}
+El SRS cubre la primera versión investigativa del software. Incluye los requisitos para reunir imágenes propias o provenientes de fuentes autorizadas de Internet, registrar su procedencia, etiquetar lesiones, formar conjuntos de entrenamiento, ejecutar entrenamientos controlados en un servidor y consultar los resultados. También define límites de uso, seguridad, reproducibilidad y calidad de los datos.
+
+\subsection{Convenciones}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{3.2cm}>{\RaggedRight\arraybackslash}p{11.8cm}}
+\toprule
+Término & Uso en este documento \\
+\midrule
+Deberá & Obligación verificable de la versión 1.0 \\
+Debería & Característica deseable que puede aplazarse con justificación \\
+RF & Requisito funcional \\
+RD & Requisito de datos \\
+RNF & Requisito no funcional \\
+Alta & Necesario para aceptar la versión 1.0 \\
+Media & Necesario, pero puede planificarse después del núcleo mínimo \\
+Baja & Mejora aplazable sin impedir el objetivo principal \\
+\bottomrule
+\end{longtable}
+\subsection{Definiciones}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{4cm}>{\RaggedRight\arraybackslash}p{11cm}}
+\toprule
+Concepto & Definición operativa \\
+\midrule
+Anotación & Etiqueta de clase y cuadro delimitador asociado a una lesión visible en una imagen \\
+Conjunto de datos & Colección versionada de imágenes, etiquetas y metadatos utilizada en un experimento \\
+Entrenamiento desde cero & Entrenamiento iniciado con pesos aleatorios, sin cargar pesos preentrenados \\
+Experimento & Ejecución identificada por datos, configuración, código, entorno, semilla y resultados \\
+Inferencia & Aplicación de un modelo entrenado a imágenes que no forman parte del entrenamiento \\
+Fuga de datos & Uso directo o indirecto de información de validación o prueba durante el entrenamiento o ajuste \\
+No detección & Resultado en el que el modelo no encuentra lesiones sobre el umbral; no equivale a declarar una hoja sana \\
+\bottomrule
+\end{longtable}
+\clearpage
+\section{Proceso de especificación}
+Ruiz Robalino y Lucio Moreno (2025, pp. 59-61) describen la ingeniería de requisitos como un proceso iterativo de adquisición, clasificación, priorización, especificación, validación y documentación. Esta versión aplica esa secuencia de la siguiente manera.
+\begin{enumerate}
+\item Descubrimiento inicial. Se parte de la necesidad de entrenar manualmente, en un servidor, una IA con fotografías propias o conjuntos de datos de Internet.
+\item Clasificación. Las necesidades se separan en requisitos funcionales, de datos, de calidad y restricciones.
+\item Priorización. Cada requisito recibe prioridad alta, media o baja para delimitar la primera versión.
+\item Especificación. Los requisitos se redactan con un identificador único, una obligación y un criterio de aceptación.
+\item Validación. Antes del análisis, las partes interesadas deberán comprobar validez, consistencia, totalidad, viabilidad y verificabilidad.
+\end{enumerate}
+La versión 1.0 es una línea base para revisión. Los asuntos abiertos aparecen en la sección correspondiente y deberán resolverse sin introducir diseño prematuro.
+
+\section{Descripción general}
+\subsection{Problema que atiende el sistema}
+La inspección visual de hojas puede ser lenta, variable entre observadores y difícil de escalar. El proyecto requiere un entorno controlado que convierta imágenes y etiquetas revisadas por personas en evidencia experimental reproducible. El artículo de Karthik et al. (2026) muestra que la calidad de las anotaciones, la separación de los datos, el control del desbalance y las métricas por clase son elementos centrales de un detector de enfermedades del aguacate.
+
+\subsection{Objetivo general del producto}
+Permitir que un equipo de investigación prepare datos, entrene desde cero modelos de detección de enfermedades foliares del aguacate en un servidor, compare experimentos y ejecute inferencias con resultados trazables.
+
+\subsection{Objetivos específicos}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{2.4cm}>{\RaggedRight\arraybackslash}p{12.6cm}}
+\toprule
+Código & Objetivo \\
+\midrule
+OE 01 & Reunir imágenes y metadatos con procedencia y autorización de uso verificables. \\
+OE 02 & Crear y revisar manualmente anotaciones de lesiones por clase. \\
+OE 03 & Construir versiones de conjuntos de entrenamiento, validación y prueba sin fuga de datos. \\
+OE 04 & Ejecutar entrenamientos desde pesos aleatorios mediante configuraciones registradas por el investigador. \\
+OE 05 & Medir el desempeño global y por clase con métricas reproducibles. \\
+OE 06 & Aplicar modelos aprobados a nuevas imágenes e informar la incertidumbre del resultado. \\
+\bottomrule
+\end{longtable}
+\subsection{Partes interesadas}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{4cm}>{\RaggedRight\arraybackslash}p{5.6cm}>{\RaggedRight\arraybackslash}p{5.4cm}}
+\toprule
+Parte interesada & Necesidad principal & Interacción prevista \\
+\midrule
+Investigador principal & Controlar los datos, experimentos y resultados & Administra el proyecto y aprueba versiones \\
+Anotador & Etiquetar lesiones de forma consistente & Crea y corrige anotaciones \\
+Especialista fitopatólogo & Resolver etiquetas ambiguas y aprobar criterios & Revisa y valida muestras \\
+Administrador del servidor & Mantener recursos, acceso, copias y continuidad & Administra infraestructura y usuarios \\
+Director o tribunal & Revisar evidencia reproducible del estudio & Consulta reportes y trazabilidad \\
+\bottomrule
+\end{longtable}
+\subsection{Usuarios y entorno operativo}
+Los usuarios previstos tienen conocimientos básicos o intermedios de investigación, imágenes y aprendizaje automático. El sistema se ejecutará en un servidor Linux accesible mediante una interfaz web segura desde computadores de escritorio. El entrenamiento aprovechará una GPU cuando el servidor disponga de ella; la especificación física final se confirmará antes del análisis.
+
+\clearpage
+\section{Alcance del producto}
+\subsection{Funciones incluidas}
+\begin{itemize}
+\item Ingreso de imágenes RGB individuales o por lotes y registro de su procedencia.
+\item Catálogo configurable de enfermedades y control de versiones de sus definiciones.
+\item Anotación manual mediante cuadros delimitadores e importación de etiquetas compatibles.
+\item Revisión de etiquetas, resolución de desacuerdos y control básico de calidad.
+\item Creación de conjuntos versionados y separación de entrenamiento, validación y prueba.
+\item Configuración y ejecución manual de entrenamientos desde pesos aleatorios.
+\item Seguimiento de trabajos, puntos de control, métricas y artefactos de cada experimento.
+\item Evaluación global y por clase, comparación de experimentos e inferencia sobre nuevas imágenes.
+\item Exportación de resultados y respaldo de la evidencia experimental.
+\end{itemize}
+\subsection{Funciones fuera de alcance}
+\begin{itemize}
+\item Diseño o control de drones y cámaras.
+\item Adquisición multispectral OCN en la versión 1.0.
+\item Despliegue en Jetson, Raspberry Pi, teléfono móvil u otro dispositivo de borde.
+\item Diagnóstico agronómico definitivo, prescripción de fungicidas o recomendación de tratamiento.
+\item Portal público, aplicación móvil o atención simultánea a gran escala.
+\item Entrenamiento con pesos preentrenados cuando el experimento esté marcado como desde cero.
+\item Definición de la arquitectura interna, framework, base de datos o patrón de diseño; estas decisiones corresponden al análisis y diseño.
+\end{itemize}
+\subsection{Clases iniciales de referencia}
+El artículo de Karthik et al. (2026) utiliza cuatro clases: antracnosis, sarna del aguacate, mancha algal y pudrición de raíz. La versión 1.0 deberá permitir configurarlas como catálogo inicial y añadir otras clases sin modificar el código fuente. La selección definitiva depende de la revisión bibliográfica, la disponibilidad legal de imágenes y la validación del especialista.
+
+El sistema deberá informar no detección o resultado indeterminado cuando corresponda. No deberá interpretar automáticamente la ausencia de cuadros como confirmación de una hoja sana.
+
+\clearpage
+\section{Requisitos funcionales}
+Los requisitos funcionales se presentan en tablas individuales para facilitar revisión, trazabilidad y validación. Cada requisito mantiene una obligación verificable, prioridad, fuente y criterio de aceptación.
+\subsection{RF 01 Autenticación de usuarios}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 01 \\
+Nombre & Autenticación de usuarios \\
+Prioridad & Alta \\
+Fuente & Necesidad operativa \\
+Requisito & El sistema deberá autenticar a cada usuario autorizado antes de permitir el acceso a datos, entrenamiento o resultados. \\
+Criterio de aceptación & un usuario con credenciales válidas accede a las funciones de su rol; uno no autorizado recibe rechazo sin exponer datos del proyecto. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 02 Gestión de roles}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 02 \\
+Nombre & Gestión de roles \\
+Prioridad & Media \\
+Fuente & Partes interesadas \\
+Requisito & El sistema deberá distinguir al menos los roles de investigador, anotador, revisor y administrador. \\
+Criterio de aceptación & cada rol puede ejecutar únicamente las operaciones definidas para él y los intentos denegados quedan registrados. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 03 Ingreso de imágenes}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 03 \\
+Nombre & Ingreso de imágenes \\
+Prioridad & Alta \\
+Fuente & OE 01 \\
+Requisito & El sistema deberá permitir cargar imágenes RGB individuales y lotes en formatos JPEG, PNG o TIFF, sin alterar el archivo original. \\
+Criterio de aceptación & un lote válido se registra con el mismo número de archivos aceptados; los archivos inválidos se rechazan con una causa concreta. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 04 Registro de procedencia}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 04 \\
+Nombre & Registro de procedencia \\
+Prioridad & Alta \\
+Fuente & OE 01 \\
+Requisito & El sistema deberá solicitar para cada lote la fuente, URL o ubicación de origen, autor o institución, fecha de obtención, licencia, permiso de uso y observaciones. \\
+Criterio de aceptación & ninguna imagen puede aprobarse para entrenamiento mientras falte la procedencia o el estado de autorización. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 05 Detección de duplicados}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 05 \\
+Nombre & Detección de duplicados \\
+Prioridad & Alta \\
+Fuente & Calidad de datos \\
+Requisito & El sistema deberá identificar archivos idénticos y advertir posibles duplicados visuales antes de incorporarlos a un conjunto. \\
+Criterio de aceptación & al cargar dos copias idénticas, el sistema bloquea la segunda o exige una justificación registrada; los duplicados visuales quedan señalados para revisión. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 06 Catálogo de clases}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 06 \\
+Nombre & Catálogo de clases \\
+Prioridad & Alta \\
+Fuente & Alcance \\
+Requisito & El sistema deberá permitir crear, activar, desactivar y versionar clases de enfermedad con nombre, descripción y guía visual de etiquetado. \\
+Criterio de aceptación & un cambio de clase genera una nueva versión del catálogo y no altera silenciosamente etiquetas históricas. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 07 Anotación manual}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 07 \\
+Nombre & Anotación manual \\
+Prioridad & Alta \\
+Fuente & OE 02 \\
+Requisito & El sistema deberá permitir que un anotador dibuje, cambie y elimine cuadros delimitadores y asigne una clase a cada lesión visible. \\
+Criterio de aceptación & las operaciones se guardan sin perder la imagen original y cada cuadro conserva coordenadas, clase, autor y fecha. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 08 Importación y exportación de etiquetas}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 08 \\
+Nombre & Importación y exportación de etiquetas \\
+Prioridad & Alta \\
+Fuente & Interoperabilidad \\
+Requisito & El sistema deberá importar y exportar anotaciones en al menos formato YOLO y COCO JSON, validando nombres de clase y coordenadas. \\
+Criterio de aceptación & un conjunto de prueba exportado e importado conserva el número de imágenes, clases y cuadros; toda incompatibilidad se informa. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 09 Revisión de anotaciones}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 09 \\
+Nombre & Revisión de anotaciones \\
+Prioridad & Alta \\
+Fuente & Karthik et al 2026 \\
+Requisito & El sistema deberá permitir que un segundo usuario apruebe, corrija o marque como ambigua una anotación. \\
+Criterio de aceptación & cada anotación muestra su estado y el historial identifica autor, revisor, fecha y decisión. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 10 Resolución de ambigüedades}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 10 \\
+Nombre & Resolución de ambigüedades \\
+Prioridad & Alta \\
+Fuente & Karthik et al 2026 \\
+Requisito & El sistema deberá enviar las anotaciones ambiguas al especialista y registrar su decisión final o la exclusión de la muestra. \\
+Criterio de aceptación & ninguna anotación marcada como ambigua puede formar parte de una versión aprobada mientras no tenga resolución. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 11 Control geométrico de etiquetas}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 11 \\
+Nombre & Control geométrico de etiquetas \\
+Prioridad & Alta \\
+Fuente & Karthik et al 2026 \\
+Requisito & El sistema deberá detectar cuadros fuera de los límites, vacíos, con tamaño inferior al mínimo configurado o con reglas de solapamiento incumplidas. \\
+Criterio de aceptación & una verificación de calidad produce una lista reproducible de errores y bloquea la aprobación hasta corregirlos o justificarlos. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 12 Versionado del conjunto de datos}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 12 \\
+Nombre & Versionado del conjunto de datos \\
+Prioridad & Alta \\
+Fuente & OE 03 \\
+Requisito & El sistema deberá crear versiones inmutables del conjunto de datos con identificador, fecha, catálogo, imágenes, etiquetas y resumen de distribución. \\
+Criterio de aceptación & al modificar una imagen o etiqueta se crea una versión nueva y una versión usada por un experimento permanece recuperable. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 13 Separación de datos}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 13 \\
+Nombre & Separación de datos \\
+Prioridad & Alta \\
+Fuente & OE 03 \\
+Requisito & El sistema deberá generar particiones configurables de entrenamiento, validación y prueba mediante muestreo estratificado por clase. \\
+Criterio de aceptación & el reporte muestra proporciones y distribución por clase, y confirma que una imagen fuente o sus derivados aparecen en una sola partición. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 14 Prevención de fuga de datos}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 14 \\
+Nombre & Prevención de fuga de datos \\
+Prioridad & Alta \\
+Fuente & Karthik et al 2026 \\
+Requisito & El sistema deberá impedir que aumentos o variantes de una imagen de origen se repartan entre entrenamiento, validación o prueba. \\
+Criterio de aceptación & una auditoría automática no encuentra identificadores de origen compartidos entre particiones. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 15 Aumento controlado}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 15 \\
+Nombre & Aumento controlado \\
+Prioridad & Alta \\
+Fuente & Karthik et al 2026 \\
+Requisito & El sistema deberá permitir configurar aumentos solo para la partición de entrenamiento y conservar la receta aplicada. \\
+Criterio de aceptación & las imágenes de validación y prueba permanecen sin aumentos y el experimento registra cada transformación y parámetro. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 16 Configuración del entrenamiento}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 16 \\
+Nombre & Configuración del entrenamiento \\
+Prioridad & Alta \\
+Fuente & OE 04 \\
+Requisito & El sistema deberá permitir al investigador seleccionar versión de datos, catálogo, arquitectura disponible, resolución, épocas, tamaño de lote, optimizador, tasa de aprendizaje, semilla y criterios de parada. \\
+Criterio de aceptación & antes de iniciar, el sistema presenta la configuración completa y guarda una copia inmutable asociada al experimento. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 17 Entrenamiento desde cero}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 17 \\
+Nombre & Entrenamiento desde cero \\
+Prioridad & Alta \\
+Fuente & Necesidad del proyecto \\
+Requisito & El sistema deberá permitir iniciar un experimento con pesos aleatorios y registrar de forma explícita que no se cargaron pesos preentrenados. \\
+Criterio de aceptación & el manifiesto del experimento indica inicialización aleatoria y la bitácora no contiene una operación de carga de pesos preentrenados. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 18 Cola y seguimiento de trabajos}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 18 \\
+Nombre & Cola y seguimiento de trabajos \\
+Prioridad & Alta \\
+Fuente & Entorno de servidor \\
+Requisito & El sistema deberá poner en cola los entrenamientos, mostrar su estado y permitir cancelar un trabajo sin dañar los resultados de otros experimentos. \\
+Criterio de aceptación & los estados pendiente, en ejecución, completado, fallido y cancelado son visibles y cada transición queda registrada. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 19 Puntos de control}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 19 \\
+Nombre & Puntos de control \\
+Prioridad & Media \\
+Fuente & Continuidad \\
+Requisito & El sistema deberá guardar puntos de control periódicos y reanudar un entrenamiento interrumpido cuando la configuración sea compatible. \\
+Criterio de aceptación & tras una interrupción simulada, el trabajo se reanuda desde el último punto válido y registra el evento. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 20 Registro reproducible}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 20 \\
+Nombre & Registro reproducible \\
+Prioridad & Alta \\
+Fuente & OE 04 \\
+Requisito & El sistema deberá guardar para cada experimento la versión de datos, configuración, semilla, versión del código, dependencias, recursos del servidor, duración, bitácora y archivos resultantes. \\
+Criterio de aceptación & un reporte del experimento contiene todos los campos y permite reconstruir las condiciones de ejecución. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 21 Evaluación del modelo}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 21 \\
+Nombre & Evaluación del modelo \\
+Prioridad & Alta \\
+Fuente & OE 05 \\
+Requisito & El sistema deberá calcular precisión, exhaustividad, F1 y mAP en los umbrales definidos, tanto globalmente como por clase, usando únicamente la partición seleccionada. \\
+Criterio de aceptación & las métricas pueden recalcularse a partir de predicciones exportadas y coinciden dentro de la tolerancia numérica documentada. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 22 Visualización de errores}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 22 \\
+Nombre & Visualización de errores \\
+Prioridad & Alta \\
+Fuente & OE 05 \\
+Requisito & El sistema deberá mostrar ejemplos de verdaderos positivos, falsos positivos y falsos negativos junto con clase, confianza y cuadro esperado. \\
+Criterio de aceptación & el investigador puede filtrar al menos por clase y tipo de error y abrir la imagen relacionada. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 23 Comparación de experimentos}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 23 \\
+Nombre & Comparación de experimentos \\
+Prioridad & Media \\
+Fuente & OE 05 \\
+Requisito & El sistema deberá comparar dos o más experimentos por configuración, métricas, tiempo y consumo máximo de recursos. \\
+Criterio de aceptación & la comparación identifica las versiones de datos y presenta los mismos indicadores en columnas equivalentes. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 24 Aprobación de modelo}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 24 \\
+Nombre & Aprobación de modelo \\
+Prioridad & Alta \\
+Fuente & Gobierno del experimento \\
+Requisito & El sistema deberá permitir al investigador marcar una versión de modelo como candidata o aprobada, acompañada de su evaluación y observaciones. \\
+Criterio de aceptación & solo un modelo con evaluación registrada puede aprobarse y el cambio de estado conserva autor y fecha. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 25 Inferencia en nuevas imágenes}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 25 \\
+Nombre & Inferencia en nuevas imágenes \\
+Prioridad & Alta \\
+Fuente & OE 06 \\
+Requisito & El sistema deberá aplicar un modelo aprobado a una o varias imágenes y devolver cuadros, clase, confianza, versión del modelo y tiempo de procesamiento. \\
+Criterio de aceptación & para un lote válido se genera un resultado por imagen y puede descargarse la imagen marcada y el archivo estructurado. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 26 Comunicación de incertidumbre}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 26 \\
+Nombre & Comunicación de incertidumbre \\
+Prioridad & Alta \\
+Fuente & Uso responsable \\
+Requisito & El sistema deberá diferenciar entre detección, no detección e imagen no evaluable, y mostrar el umbral de confianza utilizado. \\
+Criterio de aceptación & la interfaz nunca sustituye no detección por sana y presenta una advertencia de uso investigativo. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 27 Exportación de evidencia}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 27 \\
+Nombre & Exportación de evidencia \\
+Prioridad & Alta \\
+Fuente & Trazabilidad \\
+Requisito & El sistema deberá exportar un paquete con configuración, métricas, predicciones, bitácora, referencias de datos y suma de verificación de los archivos. \\
+Criterio de aceptación & el paquete permite comprobar integridad y relacionar cada resultado con un experimento y una versión de datos. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\subsection{RF 28 Respaldo y restauración}
+\begin{longtable}{>{\bfseries\RaggedRight\arraybackslash}p{3.0cm} >{\RaggedRight\arraybackslash}p{12.2cm}}
+\toprule
+Campo & Descripción \\
+\midrule
+Código & RF 28 \\
+Nombre & Respaldo y restauración \\
+Prioridad & Alta \\
+Fuente & Continuidad \\
+Requisito & El sistema deberá permitir respaldar y restaurar metadatos, anotaciones, configuraciones y modelos aprobados. \\
+Criterio de aceptación & una restauración de prueba recupera un experimento seleccionado con sus relaciones y sumas de verificación válidas. \\
+Método de verificación & Inspección funcional, prueba de aceptación y revisión de evidencia registrada. \\
+\bottomrule
+\end{longtable}
+
+\clearpage
+\section{Requisitos de datos}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{2cm}>{\RaggedRight\arraybackslash}p{3.6cm}>{\RaggedRight\arraybackslash}p{2.1cm}>{\RaggedRight\arraybackslash}p{7.3cm}}
+\toprule
+Código & Nombre & Prioridad & Requisito \\
+\midrule
+RD 01 & Integridad de originales & Alta & Cada imagen original se conservará sin sobrescritura y tendrá una suma de verificación. \\
+RD 02 & Metadatos mínimos & Alta & Cada imagen deberá registrar identificador, formato, dimensiones, fuente, licencia, lote, fecha de ingreso y estado de revisión. \\
+RD 03 & Etiquetas trazables & Alta & Cada cuadro deberá registrar coordenadas, clase, versión del catálogo, autor, revisor, fechas y estado. \\
+RD 04 & Licencias y permisos & Alta & Solo los datos con licencia compatible o permiso documentado podrán aprobarse para entrenamiento o publicación. \\
+RD 05 & Datos sensibles & Alta & Los metadatos EXIF con ubicación, identidad u otra información sensible deberán eliminarse de copias publicables o protegerse según la decisión del investigador. \\
+RD 06 & Distribución por clase & Alta & Cada versión del conjunto deberá informar imágenes e instancias por clase, partición y fuente. \\
+RD 07 & Calidad de imagen & Alta & Los límites de resolución, desenfoque, exposición, oclusión y tamaño mínimo de lesión serán configurables y quedarán documentados. \\
+RD 08 & Formato de particiones & Alta & Las particiones deberán conservar la relación con la imagen fuente para evitar que recortes o aumentos crucen entre conjuntos. \\
+RD 09 & Retención & Media & Las versiones usadas en resultados publicados deberán conservarse durante el periodo fijado por la política de investigación. \\
+RD 10 & Eliminación controlada & Media & La eliminación de datos deberá requerir confirmación, registrar la causa y advertir si existen experimentos dependientes. \\
+\bottomrule
+\end{longtable}
+\section{Requisitos no funcionales}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{2cm}>{\RaggedRight\arraybackslash}p{3.2cm}>{\RaggedRight\arraybackslash}p{2.1cm}>{\RaggedRight\arraybackslash}p{7.7cm}}
+\toprule
+Código & Atributo & Prioridad & Requisito verificable \\
+\midrule
+RNF 01 & Reproducibilidad & Alta & Con los mismos datos, configuración, semilla, versión de código y entorno, el sistema deberá permitir repetir un experimento y explicar cualquier variación no determinista. \\
+RNF 02 & Trazabilidad & Alta & Todo resultado deberá enlazarse con la imagen, etiqueta, versión de datos, modelo y experimento que lo produjo. \\
+RNF 03 & Seguridad de acceso & Alta & Las comunicaciones remotas deberán cifrarse y las contraseñas almacenarse mediante un algoritmo de derivación seguro; las sesiones expirarán tras inactividad configurable. \\
+RNF 04 & Auditoría & Alta & Los cambios de datos, etiquetas, clases, usuarios, aprobaciones y ejecuciones deberán producir eventos de auditoría con usuario y fecha. \\
+RNF 05 & Rendimiento de inferencia & Media & Como objetivo inicial, una imagen RGB de hasta 1280 por 1280 píxeles deberá procesarse en cinco segundos o menos en el servidor objetivo, sin contar el tiempo de transferencia. El valor se ratificará con el hardware real. \\
+RNF 06 & Capacidad de datos & Alta & La primera instalación deberá admitir al menos 10000 imágenes y 100000 anotaciones sin perder trazabilidad. La capacidad final se verificará con el almacenamiento disponible. \\
+RNF 07 & Disponibilidad & Media & Durante jornadas planificadas de investigación, el sistema deberá alcanzar 95 por ciento de disponibilidad mensual, excluyendo mantenimientos anunciados. \\
+RNF 08 & Recuperación & Alta & La restauración del último respaldo válido deberá completar en un máximo de cuatro horas para la capacidad inicial definida. \\
+RNF 09 & Usabilidad & Media & Un anotador capacitado deberá completar la carga, anotación y envío a revisión de una imagen sin usar la línea de comandos. \\
+RNF 10 & Mensajes de error & Alta & Todo error de entrada o ejecución deberá indicar qué ocurrió, qué elemento fue afectado y una acción segura para continuar. \\
+RNF 11 & Mantenibilidad & Media & La configuración de rutas, umbrales, clases y recursos no deberá estar codificada de forma fija en el programa. \\
+RNF 12 & Portabilidad del experimento & Media & Las dependencias y versiones deberán poder exportarse en un manifiesto legible por máquina. \\
+RNF 13 & Escalabilidad & Baja & La solución deberá permitir aumentar almacenamiento o recursos de cómputo sin cambiar la identidad de los datos y experimentos existentes. \\
+RNF 14 & Uso responsable & Alta & Toda salida de inferencia deberá indicar que es un resultado experimental y que requiere confirmación de un especialista. \\
+\bottomrule
+\end{longtable}
+\subsection{Objetivos de desempeño del modelo}
+Los resultados de Karthik et al. (2026) alcanzaron F1 de 0.911 y mAP a IoU 0.5 de 0.937 en su validación multiespectral. Esas cifras corresponden a otro conjunto de datos, hardware y protocolo, por lo que se usarán como referencia comparativa y no como requisito garantizado.
+
+Para la primera investigación se propone como umbral provisional de éxito F1 global igual o superior a 0.80 y mAP a IoU 0.5 igual o superior a 0.80 en el conjunto de prueba independiente. Además, ninguna clase deberá quedar sin reporte individual. El director y el especialista deberán ratificar o modificar estos valores antes del análisis.
+
+\clearpage
+\section{Interfaces externas}
+\subsection{Interfaz de usuario}
+La interfaz principal será web y deberá funcionar en una versión vigente de un navegador de escritorio. Deberá ofrecer vistas para datos, anotación, revisión, experimentos, entrenamiento, evaluación, inferencia, administración y auditoría. La interfaz exacta se diseñará en la fase de análisis.
+
+\subsection{Interfaces de archivos}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{3.2cm}>{\RaggedRight\arraybackslash}p{5.8cm}>{\RaggedRight\arraybackslash}p{6cm}}
+\toprule
+Elemento & Entrada mínima & Salida mínima \\
+\midrule
+Imágenes & JPEG, PNG, TIFF & PNG o JPEG marcado y original sin modificar \\
+Anotaciones & YOLO TXT, COCO JSON & YOLO TXT, COCO JSON \\
+Resultados & No aplica & CSV o JSON y reporte legible \\
+Modelo & Pesos propios del experimento & Artefacto versionado y manifiesto \\
+Evidencia & No aplica & Paquete comprimido con sumas de verificación \\
+\bottomrule
+\end{longtable}
+\subsection{Interfaz con el servidor}
+El sistema deberá usar los recursos de CPU, memoria, GPU y almacenamiento asignados sin que los usuarios tengan que ejecutar comandos administrativos. El administrador deberá poder consultar consumo, espacio disponible y fallos. La elección de sistema operativo, contenedores, framework y controlador de GPU se realizará en análisis.
+
+\subsection{Interfaz programática}
+La versión 1.0 debería ofrecer una interfaz programática autenticada para cargar imágenes, consultar trabajos y obtener resultados. Sus rutas, mensajes y tecnología no se fijan en este SRS.
+
+\section{Reglas de negocio y restricciones}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{2.2cm}>{\RaggedRight\arraybackslash}p{12.8cm}}
+\toprule
+Código & Regla o restricción \\
+\midrule
+RN 01 & Una imagen sin procedencia o autorización no puede aprobarse para entrenamiento. \\
+RN 02 & Una anotación ambigua no puede entrar en una versión aprobada sin decisión del especialista o exclusión documentada. \\
+RN 03 & Los aumentos de datos se aplican solo al conjunto de entrenamiento. \\
+RN 04 & El conjunto de prueba no se usa para seleccionar hiperparámetros ni aprobar cambios durante el entrenamiento. \\
+RN 05 & Un experimento marcado desde cero no puede cargar pesos preentrenados. \\
+RN 06 & Un modelo solo puede aprobarse si tiene evaluación, versión de datos y configuración completas. \\
+RN 07 & No detección no significa hoja sana ni ausencia clínica de enfermedad. \\
+RN 08 & La publicación de imágenes deberá respetar licencias, permisos y tratamiento de metadatos sensibles. \\
+RT 01 & La primera versión trabaja con imágenes RGB; la modalidad multiespectral se considera ampliación futura. \\
+RT 02 & El servidor y su capacidad final deberán estar disponibles antes de aprobar requisitos de rendimiento y volumen. \\
+\bottomrule
+\end{longtable}
+\clearpage
+\section{Criterios de aceptación de la versión}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{2cm}>{\RaggedRight\arraybackslash}p{3.6cm}>{\RaggedRight\arraybackslash}p{9.4cm}}
+\toprule
+Código & Área & Condición de aceptación \\
+\midrule
+CA 01 & Datos trazables & Se ingresa un lote de prueba y todas las imágenes conservan origen, licencia, identificador y suma de verificación. \\
+CA 02 & Etiquetado revisado & Un anotador crea cuadros, un revisor corrige uno y un especialista resuelve un caso ambiguo con historial completo. \\
+CA 03 & Conjunto sin fuga & Se genera una versión con tres particiones y la auditoría confirma que no comparten imágenes fuente ni derivados. \\
+CA 04 & Entrenamiento desde cero & Se completa un entrenamiento de prueba con inicialización aleatoria y manifiesto reproducible. \\
+CA 05 & Recuperación de trabajo & Una ejecución interrumpida se reanuda desde un punto de control válido o falla con causa y conserva la evidencia previa. \\
+CA 06 & Evaluación & El sistema calcula métricas globales y por clase, muestra errores y exporta predicciones. \\
+CA 07 & Inferencia responsable & Un modelo aprobado procesa imágenes nuevas y diferencia detección, no detección e imagen no evaluable. \\
+CA 08 & Evidencia reproducible & Se exporta un paquete íntegro que relaciona datos, configuración, código, entorno, modelo y resultados. \\
+CA 09 & Seguridad & Un usuario sin permiso no accede a datos protegidos y el intento queda auditado. \\
+CA 10 & Respaldo & Una restauración de prueba recupera un experimento completo con integridad comprobada. \\
+\bottomrule
+\end{longtable}
+\subsection{Validación del SRS}
+Antes de iniciar el análisis, la revisión del SRS deberá responder afirmativamente a las comprobaciones recomendadas por Ruiz Robalino y Lucio Moreno (2025, p. 61).
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{3.6cm}>{\RaggedRight\arraybackslash}p{11.4cm}}
+\toprule
+Comprobación & Pregunta de validación \\
+\midrule
+Validez & ¿Los requisitos representan el sistema que la investigación necesita? \\
+Consistencia & ¿Existen requisitos que se contradicen? \\
+Totalidad & ¿Falta una función, dato, restricción o actor imprescindible? \\
+Realismo & ¿El servidor, tiempo, datos y equipo permiten cumplirlos? \\
+Verificabilidad & ¿Cada obligación puede demostrarse mediante inspección, prueba, análisis o medición? \\
+\bottomrule
+\end{longtable}
+\section{Matriz de trazabilidad}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{3cm}>{\RaggedRight\arraybackslash}p{4.4cm}>{\RaggedRight\arraybackslash}p{4cm}>{\RaggedRight\arraybackslash}p{3.6cm}}
+\toprule
+Objetivo & Requisitos funcionales & Requisitos de datos & Aceptación \\
+\midrule
+OE 01 & RF 03 a RF 05 & RD 01 a RD 05 & CA 01 \\
+OE 02 & RF 06 a RF 11 & RD 03 y RD 07 & CA 02 \\
+OE 03 & RF 12 a RF 15 & RD 06 y RD 08 & CA 03 \\
+OE 04 & RF 16 a RF 20 & RD 09 & CA 04 y CA 05 \\
+OE 05 & RF 21 a RF 24 & RD 06 & CA 06 \\
+OE 06 & RF 25 a RF 27 & RD 05 & CA 07 y CA 08 \\
+Continuidad & RF 28 & RD 09 y RD 10 & CA 10 \\
+Seguridad & RF 01 y RF 02 & RD 05 & CA 09 \\
+\bottomrule
+\end{longtable}
+\section{Asuntos pendientes para validación}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{2cm}>{\RaggedRight\arraybackslash}p{3.2cm}>{\RaggedRight\arraybackslash}p{7cm}>{\RaggedRight\arraybackslash}p{2.8cm}}
+\toprule
+Código & Decisión & Pregunta que debe resolverse & Responsable \\
+\midrule
+AP 01 & Clases definitivas & Confirmar cuáles enfermedades se incluirán según revisión sistemática, disponibilidad de datos y criterio fitopatológico. & Investigador y especialista \\
+AP 02 & Fuentes de imágenes & Definir datasets autorizados y protocolo para fotografías propias. & Investigador \\
+AP 03 & Servidor objetivo & Registrar CPU, GPU, memoria, almacenamiento, sistema operativo y acceso de red. & Administrador \\
+AP 04 & Volumen esperado & Estimar imágenes iniciales, crecimiento y espacio para modelos y respaldos. & Investigador y administrador \\
+AP 05 & Umbrales científicos & Ratificar F1, mAP, IoU, confianza y criterios por clase. & Director y especialista \\
+AP 06 & Modalidad & Confirmar que la versión 1.0 será solo RGB y planificar si habrá imágenes OCN. & Equipo de investigación \\
+AP 07 & Usuarios y acceso & Definir número de usuarios, acceso desde Internet o red local y política institucional. & Administrador \\
+AP 08 & Retención & Definir duración de conservación y repositorio para datos publicados. & Director de investigación \\
+\bottomrule
+\end{longtable}
+\clearpage
+\section{Límite con la fase de análisis}
+Este SRS responde qué debe cumplir el sistema. La siguiente fase deberá decidir cómo se organizará la solución. Por tanto, quedan expresamente reservados para el análisis y diseño los siguientes elementos:
+\begin{itemize}
+\item Arquitectura lógica y física del sistema.
+\item Selección definitiva del modelo de detección y del framework de aprendizaje automático.
+\item Modelo de datos, esquema de almacenamiento y estructura de directorios.
+\item Servicios, componentes, API, navegación y prototipos de interfaz.
+\item Plan de despliegue, contenedores, seguridad detallada y administración de GPU.
+\item Casos de uso desarrollados, diagramas UML y diseño de pruebas.
+\end{itemize}
+El análisis podrá proponer alternativas, pero no deberá eliminar ni debilitar un requisito aprobado sin registrar una solicitud de cambio y actualizar la trazabilidad.
+
+\section{Referencias bibliográficas}
+\begin{enumerate}[label={\arabic*.}]
+
+\item Karthik, R. P., Govindasamy, M., Muthusamy, S., \& Routray, A. (2026). Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in Indian orchards. Scientific Reports, 16, 17129. https://doi.org/10.1038/s41598-026-50025-z
+\item Ruiz Robalino, J. A., \& Lucio Moreno, X. I. (2025). Fundamentos de ingeniería de software Un enfoque práctico. Universidad de las Fuerzas Armadas ESPE. ISBN 978-9942-652-26-3.
+\end{enumerate}
+\section*{Anexo A. Lista de revisión antes del análisis}
+\addcontentsline{toc}{section}{Anexo A. Lista de revisión antes del análisis}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{2cm}>{\RaggedRight\arraybackslash}p{10.5cm}>{\RaggedRight\arraybackslash}p{2.5cm}}
+\toprule
+Número & Comprobación & Resultado \\
+\midrule
+1 & El alcance incluido y excluido fue entendido por todas las partes. & Pendiente \\
+2 & Las clases de enfermedad y sus definiciones fueron aprobadas por un especialista. & Pendiente \\
+3 & Cada fuente de imágenes tiene licencia o permiso de uso documentado. & Pendiente \\
+4 & Los requisitos funcionales de prioridad alta tienen criterio de aceptación. & Pendiente \\
+5 & Los requisitos no funcionales son medibles o tienen un asunto pendiente asignado. & Pendiente \\
+6 & No hay contradicciones entre entrenamiento desde cero y uso de pesos preentrenados. & Pendiente \\
+7 & La separación de datos impide fuga entre entrenamiento, validación y prueba. & Pendiente \\
+8 & Los objetivos de desempeño se ajustaron al servidor y a los datos disponibles. & Pendiente \\
+9 & Los responsables aceptaron los asuntos pendientes y sus decisiones. & Pendiente \\
+10 & La versión 1.0 fue aprobada como línea base para iniciar el análisis. & Pendiente \\
+\bottomrule
+\end{longtable}
+\end{document}
